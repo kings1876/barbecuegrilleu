@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1F2937"/>
+  <circle cx="300" cy="315" r="180" fill="#C2410C"/>
+  <ellipse cx="300" cy="330" rx="140" ry="120" fill="#111827"/>
+  <text x="620" y="300" font-family="Arial, sans-serif" font-size="56" fill="#ffffff" font-weight="800">Barbecue Grill Co.</text>
+  <text x="620" y="360" font-family="Arial, sans-serif" font-size="30" fill="#d1d5db">Serious Grills for Serious Backyards</text>
+</svg>

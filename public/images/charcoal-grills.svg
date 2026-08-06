@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <rect width="1600" height="1200" fill="#ffffff"/>
+  <circle cx="800" cy="620" r="330" fill="#C2410C"/>
+  <ellipse cx="800" cy="640" rx="270" ry="230" fill="#1F2937"/>
+  <rect x="700" y="900" width="24" height="180" fill="#57534e"/>
+  <rect x="876" y="900" width="24" height="180" fill="#57534e"/>
+  <rect x="650" y="1080" width="300" height="24" rx="12" fill="#57534e"/>
+  <ellipse cx="800" cy="440" rx="120" ry="30" fill="#9a3412"/>
+  <text x="800" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" fill="#1F2937" font-weight="700">Charcoal Grills</text>
+</svg>

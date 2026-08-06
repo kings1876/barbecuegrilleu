@@ -1,0 +1,23 @@
+{
+  "name": "barbecuegrilleu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/gen-agent-files.mjs",
+    "build": "next build",
+    "build:static": "cross-env TARGET=static node scripts/gen-agent-files.mjs && cross-env TARGET=static next build",
+    "images": "node scripts/images.mjs",
+    "crosscheck": "node scripts/crosscheck.mjs",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

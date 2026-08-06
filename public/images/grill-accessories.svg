@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <rect width="1600" height="1200" fill="#ffffff"/>
+  <rect x="560" y="420" width="26" height="360" rx="10" fill="#57534e"/>
+  <ellipse cx="573" cy="410" rx="60" ry="24" fill="#C2410C"/>
+  <rect x="760" y="420" width="26" height="360" rx="10" fill="#57534e"/>
+  <path d="M740 400 L810 400 L810 440 L740 440 Z" fill="#C2410C"/>
+  <circle cx="1000" cy="500" r="90" fill="#1F2937"/>
+  <circle cx="1000" cy="500" r="60" fill="#fff"/>
+  <rect x="990" y="460" width="20" height="50" fill="#C2410C"/>
+  <text x="800" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" fill="#1F2937" font-weight="700">Grill Accessories</text>
+</svg>

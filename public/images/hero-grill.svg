@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <rect width="1600" height="1200" fill="#ffffff"/>
+  <circle cx="500" cy="650" r="260" fill="#C2410C"/>
+  <ellipse cx="500" cy="665" rx="210" ry="180" fill="#1F2937"/>
+  <rect x="820" y="560" width="480" height="220" rx="16" fill="#1F2937"/>
+  <rect x="850" y="590" width="420" height="50" fill="#C2410C"/>
+  <rect x="440" y="900" width="120" height="24" fill="#57534e"/>
+  <rect x="860" y="900" width="400" height="24" fill="#57534e"/>
+  <text x="800" y="1130" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#1F2937" font-weight="800">Barbecue Grill Co.</text>
+</svg>
