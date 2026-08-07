@@ -4,18 +4,6 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { SITE, CATEGORIES } from '@/config/site'
 
-function FlameMark() {
-  return (
-    <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true" style={{ flexShrink: 0 }}>
-      <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
-      <path
-        d="M15 5c-1 3-4 4.5-4 8a4 4 0 0 0 8 0c0-1.2-.5-2-1-2.8.6 2 -.4 3.8-2 3.8a2.2 2.2 0 0 1-2.2-2.2c0-1.8 1.6-2.4 1.6-4C15.4 6.4 15.2 5.6 15 5Z"
-        fill="#fff"
-      />
-    </svg>
-  )
-}
-
 export default function Nav() {
   const [open, setOpen] = useState(false)
   const [shopOpen, setShopOpen] = useState(false)
@@ -38,9 +26,8 @@ export default function Nav() {
   return (
     <header style={{ position: 'sticky', top: 0, background: '#fff', zIndex: 100, boxShadow: '0 1px 0 var(--color-border)' }}>
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', minHeight: 72, gap: 16 }}>
-        <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 10, fontWeight: 800, fontSize: '1.2rem', color: 'var(--color-accent)' }}>
-          <FlameMark />
-          {SITE.name}
+        <Link href="/" style={{ display: 'flex', alignItems: 'center' }}>
+          <img src="/images/logo.png" alt={SITE.name} style={{ height: 34, width: 'auto', display: 'block' }} />
         </Link>
 
         <nav aria-label="Primary" className="nav-desktop" style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
