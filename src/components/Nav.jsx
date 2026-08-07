@@ -4,6 +4,18 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { SITE, CATEGORIES } from '@/config/site'
 
+function FlameMark() {
+  return (
+    <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true" style={{ flexShrink: 0 }}>
+      <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
+      <path
+        d="M15 5c-1 3-4 4.5-4 8a4 4 0 0 0 8 0c0-1.2-.5-2-1-2.8.6 2 -.4 3.8-2 3.8a2.2 2.2 0 0 1-2.2-2.2c0-1.8 1.6-2.4 1.6-4C15.4 6.4 15.2 5.6 15 5Z"
+        fill="#fff"
+      />
+    </svg>
+  )
+}
+
 export default function Nav() {
   const [open, setOpen] = useState(false)
   const [shopOpen, setShopOpen] = useState(false)
@@ -24,53 +36,75 @@ export default function Nav() {
   }, [])
 
   return (
-    <header style={{ borderBottom: '1px solid var(--color-border)', position: 'sticky', top: 0, background: '#fff', zIndex: 100 }}>
-      <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', minHeight: 64, gap: 16 }}>
-        <Link href="/" style={{ fontWeight: 800, fontSize: '1.15rem', color: 'var(--color-accent)' }}>
+    <header style={{ position: 'sticky', top: 0, background: '#fff', zIndex: 100, boxShadow: '0 1px 0 var(--color-border)' }}>
+      <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', minHeight: 72, gap: 16 }}>
+        <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 10, fontWeight: 800, fontSize: '1.2rem', color: 'var(--color-accent)' }}>
+          <FlameMark />
           {SITE.name}
         </Link>
 
-        <nav aria-label="Primary" className="nav-desktop" style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
+        <nav aria-label="Primary" className="nav-desktop" style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
           <div
             style={{ position: 'relative' }}
             onMouseEnter={() => setShopOpen(true)}
             onMouseLeave={() => setShopOpen(false)}
           >
-            <Link href="/shop/" style={{ fontWeight: 600 }}>Shop</Link>
+            <Link href="/shop/" className="nav-link">
+              Shop <span aria-hidden="true" style={{ fontSize: '0.7em', opacity: 0.7 }}>▾</span>
+            </Link>
             {shopOpen && (
-              <div style={{ position: 'absolute', top: '100%', left: 0, background: '#fff', border: '1px solid var(--color-border)', borderRadius: 8, boxShadow: 'var(--shadow-lg)', padding: 8, minWidth: 200, maxWidth: 420 }}>
+              <div
+                style={{
+                  position: 'absolute',
+                  top: '100%',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+                  background: '#fff',
+                  border: '1px solid var(--color-border)',
+                  borderRadius: 12,
+                  boxShadow: 'var(--shadow-lg)',
+                  padding: 14,
+                  display: 'grid',
+                  gridTemplateColumns: '1fr 1fr',
+                  gap: 4,
+                  width: 440,
+                }}
+              >
                 {CATEGORIES.map((c) => (
-                  <Link key={c.slug} href={`/shop/${c.slug}/`} style={{ display: 'block', padding: '8px 12px', borderRadius: 6 }}>
+                  <Link key={c.slug} href={`/shop/${c.slug}/`} className="nav-dropdown-item">
                     {c.name}
                   </Link>
                 ))}
+                <Link href="/shop/" className="nav-dropdown-item" style={{ gridColumn: '1 / -1', fontWeight: 700, color: 'var(--color-primary)', borderTop: '1px solid var(--color-border)', marginTop: 4, paddingTop: 10 }}>
+                  View All Products →
+                </Link>
               </div>
             )}
           </div>
-          <Link href="/blog/">Blog</Link>
-          <Link href="/about/">About</Link>
-          <Link href="/contact/">Contact</Link>
-          <Link href="/faq/">FAQ</Link>
+          <Link href="/blog/" className="nav-link">Blog</Link>
+          <Link href="/about/" className="nav-link">About</Link>
+          <Link href="/contact/" className="nav-link">Contact</Link>
+          <Link href="/faq/" className="nav-link">FAQ</Link>
         </nav>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-          <Link href="/search/" aria-label="Search" style={{ padding: 6 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <Link href="/search/" aria-label="Search" className="nav-icon-btn">
             🔍
           </Link>
-          <Link href="/cart/" aria-label={`Cart, ${cartCount} items`} style={{ padding: 6, position: 'relative' }}>
+          <Link href="/cart/" aria-label={`Cart, ${cartCount} items`} className="nav-icon-btn" style={{ position: 'relative' }}>
             🛒
             {cartCount > 0 && (
-              <span style={{ position: 'absolute', top: -4, right: -6, background: 'var(--color-primary)', color: '#fff', borderRadius: 999, fontSize: 11, minWidth: 18, height: 18, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0 4px' }}>
+              <span style={{ position: 'absolute', top: -2, right: -2, background: 'var(--color-primary)', color: '#fff', borderRadius: 999, fontSize: 11, minWidth: 18, height: 18, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0 4px', fontWeight: 700 }}>
                 {cartCount}
               </span>
             )}
           </Link>
           <button
-            className="nav-hamburger"
+            className="nav-hamburger nav-icon-btn"
             aria-label="Menu"
             aria-expanded={open}
             onClick={() => setOpen(!open)}
-            style={{ display: 'none', background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer', minWidth: 44, minHeight: 44 }}
+            style={{ display: 'none', border: 'none', cursor: 'pointer' }}
           >
             {open ? '✕' : '☰'}
           </button>
@@ -78,13 +112,14 @@ export default function Nav() {
       </div>
 
       {open && (
-        <nav aria-label="Mobile" style={{ borderTop: '1px solid var(--color-border)', padding: '12px 20px', display: 'flex', flexDirection: 'column', gap: 4 }}>
-          <Link href="/shop/" onClick={() => setOpen(false)} style={{ padding: '10px 0' }}>Shop</Link>
+        <nav aria-label="Mobile" style={{ borderTop: '1px solid var(--color-border)', padding: '12px 20px 20px', display: 'flex', flexDirection: 'column', gap: 2, background: 'var(--color-bg-tint)' }}>
+          <Link href="/shop/" onClick={() => setOpen(false)} style={{ padding: '10px 0', fontWeight: 700 }}>Shop All</Link>
           {CATEGORIES.map((c) => (
             <Link key={c.slug} href={`/shop/${c.slug}/`} onClick={() => setOpen(false)} style={{ padding: '8px 0 8px 16px', fontSize: '0.92rem', color: 'var(--color-text-muted)' }}>
               {c.name}
             </Link>
           ))}
+          <div style={{ borderTop: '1px solid var(--color-border)', margin: '8px 0' }} />
           <Link href="/blog/" onClick={() => setOpen(false)} style={{ padding: '10px 0' }}>Blog</Link>
           <Link href="/about/" onClick={() => setOpen(false)} style={{ padding: '10px 0' }}>About</Link>
           <Link href="/contact/" onClick={() => setOpen(false)} style={{ padding: '10px 0' }}>Contact</Link>
@@ -93,9 +128,48 @@ export default function Nav() {
       )}
 
       <style>{`
+        .nav-link {
+          font-weight: 600;
+          font-size: 0.95rem;
+          padding: 10px 14px;
+          border-radius: 8px;
+          display: inline-flex;
+          align-items: center;
+          gap: 4px;
+          transition: background 0.15s ease, color 0.15s ease;
+        }
+        .nav-link:hover {
+          background: var(--color-bg-tint);
+          color: var(--color-primary);
+        }
+        .nav-dropdown-item {
+          padding: 10px 12px;
+          border-radius: 8px;
+          font-size: 0.92rem;
+          font-weight: 500;
+          transition: background 0.15s ease;
+        }
+        .nav-dropdown-item:hover {
+          background: var(--color-bg-tint);
+          color: var(--color-primary);
+        }
+        .nav-icon-btn {
+          width: 40px;
+          height: 40px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 999px;
+          background: var(--color-bg-tint);
+          font-size: 1.05rem;
+          transition: background 0.15s ease;
+        }
+        .nav-icon-btn:hover {
+          background: var(--color-bg-tint-2);
+        }
         @media (max-width: 860px) {
           .nav-desktop { display: none !important; }
-          .nav-hamburger { display: inline-flex !important; align-items: center; justify-content: center; }
+          .nav-hamburger { display: inline-flex !important; }
         }
       `}</style>
     </header>

@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import AnnouncementBar from '@/components/AnnouncementBar'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import ChatHub from '@/components/ChatHub'
@@ -75,6 +76,7 @@ export default function RootLayout({ children }) {
         <a href="#main" className="skip-link">
           Skip to main content
         </a>
+        <AnnouncementBar />
         <Nav />
         <main id="main">{children}</main>
         <Footer />
