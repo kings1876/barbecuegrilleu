@@ -1,13 +1,20 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { Suspense, useState, useMemo, useEffect } from 'react'
+import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ProductCard from '@/components/ProductCard'
 import { PRODUCTS, POSTS } from '@/config/site'
 
-export default function SearchPage() {
-  const [q, setQ] = useState('')
+function SearchResults() {
+  const searchParams = useSearchParams()
+  const initialQ = searchParams.get('q') || ''
+  const [q, setQ] = useState(initialQ)
+
+  useEffect(() => {
+    setQ(initialQ)
+  }, [initialQ])
 
   const results = useMemo(() => {
     const query = q.trim().toLowerCase()
@@ -62,5 +69,13 @@ export default function SearchPage() {
         )}
       </div>
     </div>
+  )
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div className="section container">Loading…</div>}>
+      <SearchResults />
+    </Suspense>
   )
 }

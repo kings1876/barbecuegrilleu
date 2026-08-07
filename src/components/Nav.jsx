@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { SITE, CATEGORIES } from '@/config/site'
+import SearchBar from './SearchBar'
 
 export default function Nav() {
   const [open, setOpen] = useState(false)
@@ -74,8 +75,9 @@ export default function Nav() {
           <Link href="/faq/" className="nav-link">FAQ</Link>
         </nav>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <Link href="/search/" aria-label="Search" className="nav-icon-btn">
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+          <SearchBar className="nav-searchbar" />
+          <Link href="/search/" aria-label="Search" className="nav-icon-btn nav-search-icon-mobile">
             🔍
           </Link>
           <Link href="/cart/" aria-label={`Cart, ${cartCount} items`} className="nav-icon-btn" style={{ position: 'relative' }}>
@@ -153,6 +155,13 @@ export default function Nav() {
         }
         .nav-icon-btn:hover {
           background: var(--color-bg-tint-2);
+        }
+        .nav-search-icon-mobile {
+          display: none;
+        }
+        @media (max-width: 1080px) {
+          .nav-searchbar { display: none !important; }
+          .nav-search-icon-mobile { display: inline-flex; }
         }
         @media (max-width: 860px) {
           .nav-desktop { display: none !important; }
