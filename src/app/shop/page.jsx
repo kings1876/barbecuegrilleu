@@ -27,7 +27,7 @@ export default function ShopPage() {
         <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Shop' }]} />
         <h1>Shop All Grills</h1>
         <p style={{ maxWidth: 640, color: 'var(--color-text-muted)' }}>
-          Charcoal, gas, electric, and pellet grills, BBQ smokers, kamado grills, and pizza ovens, plus the accessories, charcoal, and sauces to keep them running. Minimum order $500 — free shipping over $1,000.
+          Charcoal, gas, electric, and pellet grills, BBQ smokers, kamado grills, and pizza ovens, plus the accessories to keep them running. Minimum order $500 — free shipping over $1,000.
         </p>
 
         <div className="grid grid-4" style={{ marginBottom: 48 }}>

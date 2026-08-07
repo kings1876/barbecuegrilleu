@@ -99,12 +99,6 @@ export const CATEGORIES = [
     description:
       'Covers, tools, thermometers, grates, and replacement parts to keep any grill running at its best.',
   },
-  {
-    slug: 'fuel-rubs-sauces',
-    name: 'Charcoal, Rubs & Sauces',
-    description:
-      'Charcoal, wood chips, fire starters, dry rubs, and barbecue sauces to fuel and finish every cook.',
-  },
 ]
 
 export const PRODUCTS = [
@@ -1002,118 +996,6 @@ export const PRODUCTS = [
     description:
       'These insulated gloves handle direct contact with hot grates, cast iron, and grill hardware well beyond what an oven mitt is rated for, with a textured grip for handling slippery tools and food safely.',
     images: ['grill-accessories.svg'],
-  },
-
-  // ---------------------------------------------------------------- fuel-rubs-sauces
-  {
-    slug: 'lump-charcoal-natural-20lb',
-    name: 'Natural Lump Charcoal — 20 lb Bag',
-    price: 28,
-    category: 'fuel-rubs-sauces',
-    badge: 'Popular',
-    short: 'All-natural hardwood lump charcoal with no fillers or chemical binders.',
-    description:
-      'Made from real hardwood with no fillers, binders, or chemical additives, this lump charcoal lights faster and burns hotter than standard briquettes, with less ash left behind at the end of a cook.',
-    images: ['fuel-rubs-sauces.svg'],
-  },
-  {
-    slug: 'briquette-charcoal-classic-20lb',
-    name: 'Classic Briquette Charcoal — 20 lb Bag',
-    price: 19,
-    category: 'fuel-rubs-sauces',
-    badge: 'Best Value',
-    short: 'Uniform charcoal briquettes for a consistent, predictable burn.',
-    description:
-      'Uniform briquette shape and density mean a more predictable, even burn than lump charcoal, making it easier to hold a steady temperature over long cooks — a solid everyday choice for kettle and offset grilling.',
-    images: ['fuel-rubs-sauces.svg'],
-  },
-  {
-    slug: 'applewood-smoking-chips-2lb',
-    name: 'Applewood Smoking Chips — 2 lb Bag',
-    price: 12,
-    category: 'fuel-rubs-sauces',
-    badge: 'none',
-    short: 'Mild, slightly sweet applewood chips for smoking poultry and pork.',
-    description:
-      'Applewood burns mild and slightly sweet, making it a good match for poultry, pork, and fish where a heavier smoke would overpower the meat. Works in any charcoal grill, smoker box, or foil packet setup.',
-    images: ['fuel-rubs-sauces.svg'],
-  },
-  {
-    slug: 'hickory-smoking-chunks-5lb',
-    name: 'Hickory Smoking Chunks — 5 lb Bag',
-    price: 18,
-    category: 'fuel-rubs-sauces',
-    badge: 'none',
-    short: 'Strong, classic hickory chunks for beef and pork smoking.',
-    description:
-      'Hickory delivers the bold, classic barbecue smoke flavor most associated with brisket and pulled pork. These chunks are sized to sit directly on charcoal for extended smoke output through a long cook.',
-    images: ['fuel-rubs-sauces.svg'],
-  },
-  {
-    slug: 'instant-light-charcoal-starter-bag',
-    name: 'Instant-Light Charcoal Starter Bags',
-    price: 14,
-    category: 'fuel-rubs-sauces',
-    badge: 'none',
-    short: 'Pre-bagged charcoal that lights directly with a match, no lighter fluid needed.',
-    description:
-      'Each bag lights directly with a single match and burns through its own paper wrapping, skipping lighter fluid and the chemical aftertaste it can leave behind. Just set the bag on the grate and light the corner.',
-    images: ['fuel-rubs-sauces.svg'],
-  },
-  {
-    slug: 'chimney-charcoal-starter',
-    name: 'Steel Charcoal Chimney Starter',
-    price: 24,
-    category: 'fuel-rubs-sauces',
-    badge: 'Popular',
-    short: 'A steel chimney starter for lighting charcoal without fluid in about 15 minutes.',
-    description:
-      'A chimney starter lights a full load of charcoal evenly using a few sheets of newspaper underneath, with no lighter fluid and no chemical taste transferred to food. Ready-to-cook coals in around 15 minutes.',
-    images: ['fuel-rubs-sauces.svg'],
-  },
-  {
-    slug: 'classic-bbq-dry-rub-set',
-    name: 'Classic BBQ Dry Rub Set (3-Pack)',
-    price: 29,
-    category: 'fuel-rubs-sauces',
-    badge: 'New',
-    short: 'A 3-pack of house dry rubs — original, smoky, and spicy.',
-    description:
-      'This set of three house-blended dry rubs covers the basics: an all-purpose original blend, a smoky paprika-forward rub, and a spicier cayenne-based blend, all built for beef, pork, and poultry.',
-    images: ['fuel-rubs-sauces.svg'],
-  },
-  {
-    slug: 'carolina-style-bbq-sauce-bottle',
-    name: 'Carolina-Style BBQ Sauce',
-    price: 9,
-    category: 'fuel-rubs-sauces',
-    badge: 'none',
-    short: 'A tangy, vinegar-based barbecue sauce in the Carolina tradition.',
-    description:
-      'A thin, vinegar-forward sauce with a light pepper kick, built in the Eastern Carolina tradition to cut through rich smoked pork rather than coat it in sweetness.',
-    images: ['fuel-rubs-sauces.svg'],
-  },
-  {
-    slug: 'kansas-style-bbq-sauce-bottle',
-    name: 'Kansas City-Style BBQ Sauce',
-    price: 9,
-    category: 'fuel-rubs-sauces',
-    badge: 'Popular',
-    short: 'A sweet and smoky tomato-based barbecue sauce.',
-    description:
-      'A thick, tomato-and-molasses-based sauce with a sweet-and-smoky balance, closer to what most people picture as classic barbecue sauce — good on ribs, brisket, or as a burger condiment.',
-    images: ['fuel-rubs-sauces.svg'],
-  },
-  {
-    slug: 'mesquite-smoking-pellets-20lb',
-    name: 'Mesquite Smoking Pellets — 20 lb Bag',
-    price: 22,
-    category: 'fuel-rubs-sauces',
-    badge: 'none',
-    short: 'Strong mesquite wood pellets sized for pellet grills and smokers.',
-    description:
-      'Mesquite burns hot and delivers a strong, earthy smoke flavor best suited to beef and heartier cuts. These pellets are sized and dried specifically for auger-fed pellet grills and smokers.',
-    images: ['fuel-rubs-sauces.svg'],
   },
 ]
 

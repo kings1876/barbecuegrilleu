@@ -30,9 +30,9 @@ Never hand-edit generated files (`vercel.json`, `public/llms.txt`, `public/auth.
 ## Brand facts (only these are true — never invent more)
 - Founded 2015, United States. Ships nationwide across the United States.
 - Categories: Charcoal Grills, Gas Grills, Electric Grills, Pellet Grills, BBQ Smokers, Kamado & Ceramic
-  Grills, Outdoor Pizza Ovens, Grill Tools & Accessories, Charcoal/Rubs & Sauces (9 total, 10 products
-  each). Product names/descriptions are original — never scrape or reproduce a competitor's copy or
-  claim to sell real branded products (Weber, etc.) we don't actually stock.
+  Grills, Outdoor Pizza Ovens, Grill Tools & Accessories (8 total, 10 products each). Product
+  names/descriptions are original — never scrape or reproduce a competitor's copy or claim to sell real
+  branded products (Weber, etc.) we don't actually stock.
 - Minimum order $500, free shipping over $1,000, flat $15 shipping fee under that.
 - Payment: cryptocurrency only (BTC, USDT), 10% automatic discount for crypto.
 - No age restriction.
