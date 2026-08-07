@@ -25,9 +25,9 @@ export default function Nav() {
 
   return (
     <header style={{ position: 'sticky', top: 0, background: '#fff', zIndex: 100, boxShadow: '0 1px 0 var(--color-border)' }}>
-      <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', minHeight: 72, gap: 16 }}>
+      <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', minHeight: 88, gap: 16 }}>
         <Link href="/" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/images/logo.png" alt={SITE.name} style={{ height: 34, width: 'auto', display: 'block' }} />
+          <img src="/images/logo.png" alt={SITE.name} style={{ height: 58, width: 'auto', display: 'block' }} />
         </Link>
 
         <nav aria-label="Primary" className="nav-desktop" style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
