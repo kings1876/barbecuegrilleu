@@ -68,24 +68,24 @@ export default function ProductPage({ params }) {
           ]}
         />
 
-        <div style={{ maxWidth: 520, margin: '0 auto', textAlign: 'center' }}>
-          <div className="product-frame" style={{ marginBottom: 24 }}>
+        <div className="two-col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40 }}>
+          <div className="product-frame">
             <SmartImage src={product.images[0]} alt={product.name} priority />
           </div>
-          {product.badge && product.badge !== 'none' && <span className="badge">{product.badge}</span>}
-          <h1>{product.name}</h1>
-          <p className="product-card-price" style={{ fontSize: '1.4rem' }}>
-            ${product.price.toLocaleString()} {SITE.currency}
-          </p>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div>
+            {product.badge && product.badge !== 'none' && <span className="badge">{product.badge}</span>}
+            <h1>{product.name}</h1>
+            <p className="product-card-price" style={{ fontSize: '1.4rem' }}>
+              ${product.price.toLocaleString()} {SITE.currency}
+            </p>
             <AddToCartForm product={product} />
+            <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', marginTop: 20 }}>
+              Minimum order $500. Free shipping over $1,000, flat $15 shipping fee otherwise. 10% discount for crypto payment.
+            </p>
+            <Link href="/order/" className="btn btn-secondary" style={{ marginTop: 8 }}>
+              Go to Order Form
+            </Link>
           </div>
-          <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', marginTop: 20 }}>
-            Minimum order $500. Free shipping over $1,000, flat $15 shipping fee otherwise. 10% discount for crypto payment.
-          </p>
-          <Link href="/order/" className="btn btn-secondary" style={{ marginTop: 8 }}>
-            Go to Order Form
-          </Link>
         </div>
 
         <div style={{ marginTop: 48, borderTop: '1px solid var(--color-border)', paddingTop: 32 }}>
