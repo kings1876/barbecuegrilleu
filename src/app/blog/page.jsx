@@ -4,7 +4,7 @@ import { SITE, POSTS } from '@/config/site'
 
 export const metadata = {
   title: 'Grilling Tips & Guides',
-  description: 'Grilling guides, buying advice, and setup tips for charcoal, gas, pellet, and electric barbecue grills.',
+  description: 'Grilling guides, buying advice, and setup tips for charcoal, gas, electric, and pellet grills, smokers, kamados, and pizza ovens.',
   alternates: { canonical: `https://${SITE.domain}/blog/` },
 }
 

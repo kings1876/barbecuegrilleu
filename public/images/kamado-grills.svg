@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <rect width="1600" height="1200" fill="#ffffff"/>
+  <ellipse cx="800" cy="560" rx="280" ry="260" fill="#9a3412"/>
+  <ellipse cx="800" cy="560" rx="280" ry="260" fill="#C2410C" opacity="0.85"/>
+  <ellipse cx="800" cy="440" rx="140" ry="40" fill="#1F2937"/>
+  <rect x="700" y="820" width="200" height="30" rx="10" fill="#57534e"/>
+  <rect x="650" y="950" width="24" height="150" fill="#57534e"/>
+  <rect x="926" y="950" width="24" height="150" fill="#57534e"/>
+  <rect x="600" y="1080" width="400" height="24" rx="12" fill="#57534e"/>
+  <text x="800" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" fill="#1F2937" font-weight="700">Kamado &amp; Ceramic Grills</text>
+</svg>

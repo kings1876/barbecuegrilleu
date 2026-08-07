@@ -5,14 +5,16 @@ import { SITE, CATEGORIES, PRODUCTS, FAQS, ORDER_RULES } from '@/config/site'
 import FaqAccordion from '@/components/FaqAccordion'
 
 export const metadata = {
-  title: 'Barbecue Grill for Sale | Charcoal, Gas, Pellet & Electric Grills',
+  title: 'Barbecue Grills for Sale | Charcoal, Gas & More',
   description:
-    'Shop barbecue grills for sale — charcoal, gas, pellet, and electric grills built for real backyard cooking. Nationwide US shipping.',
+    'Shop barbecue grills for sale — charcoal, gas, electric, pellet, kamado, and smoker grills built for real backyard cooking. Nationwide US shipping.',
   alternates: { canonical: `https://${SITE.domain}/` },
 }
 
 export default function HomePage() {
-  const featured = PRODUCTS.slice(0, 8)
+  // One representative product per category, in category order, so the homepage
+  // isn't just the first 8 charcoal-grill entries in the PRODUCTS array.
+  const featured = CATEGORIES.map((c) => PRODUCTS.find((p) => p.category === c.slug)).filter(Boolean)
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -108,7 +110,7 @@ export default function HomePage() {
             <h2>About {SITE.name}</h2>
             <p>
               {SITE.name} is a {SITE.foundingLocation}-based grill retailer established in {SITE.foundingYear}, offering
-              charcoal, gas, pellet, and electric grills for home cooks who take their backyard seriously. We ship{' '}
+              charcoal, gas, electric, and pellet grills, BBQ smokers, kamado grills, and pizza ovens for home cooks who take their backyard seriously. We ship{' '}
               {SITE.shipsTo.toLowerCase()} and specialize in high-output grills and grilling accessories.
             </p>
             <Link href="/about/" className="btn btn-primary">Learn More</Link>

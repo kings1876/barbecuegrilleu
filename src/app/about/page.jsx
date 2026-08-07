@@ -37,7 +37,7 @@ export default function AboutPage() {
         <p>
           {SITE.name} was founded in {SITE.foundingYear} in the {SITE.foundingLocation}, built around a simple idea: backyard
           cooks deserve grills that are actually built for real cooking, not just for looking good in a showroom. Since then
-          we've focused on carrying charcoal, gas, pellet, and electric grills that hold up to regular, serious use — along
+          we've focused on carrying charcoal, gas, electric, and pellet grills, BBQ smokers, kamado grills, and pizza ovens that hold up to regular, serious use — along
           with the accessories that keep them running well past the first season.
         </p>
 

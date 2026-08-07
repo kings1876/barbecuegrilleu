@@ -27,25 +27,39 @@ Shop, Blog, About, Contact, FAQ, plus Shipping/Refund/Privacy/Terms, Cart, Order
 thank-you-contact, thank-you-order, not-found.
 
 ## Shop Structure
-Category → Product (Structure Type A, no subcategories).
+Category → Product (Structure Type A, no subcategories). Category taxonomy rearranged 2026-08-07 to
+mirror kamdi24.de's grill category structure (fireplace/heating/solar/gifts sections excluded — out of
+scope for a grill-only store).
 
-Categories:
+Categories (9):
 - Charcoal Grills
 - Gas Grills
-- Pellet Grills
 - Electric Grills
-- Grill Accessories
+- Pellet Grills
+- BBQ Smokers
+- Kamado & Ceramic Grills
+- Outdoor Pizza Ovens
+- Grill Tools & Accessories
+- Charcoal, Rubs & Sauces
 
-Products: 12 placeholder products drafted by Claude across all 5 categories (see `src/config/site.js` →
-`PRODUCTS`). Names, prices, and descriptions are original to this build — not copied from any retailer.
+Products: 90 products (10 per category) drafted by Claude — see `src/config/site.js` → `PRODUCTS`.
+**Names, descriptions, and copy are 100% original to this build.** kamdi24.de was used only to identify
+the category taxonomy (factual/organizational, not copyrightable) and to understand realistic product
+types and price ranges for this market — no product descriptions, images, or copyrighted text were
+scraped or reproduced. This site does not claim to sell any real branded products (Weber, Gozney, etc.)
+seen on competitor sites; all product names here are original to Barbecue Grill Co.
 Images are generic per-category placeholder SVGs pending real product photography.
+
+**Path to 20 products/category:** current depth is 10/category (90 total). Expanding further is
+straightforward — add entries to `PRODUCTS` in `src/config/site.js` with a unique slug/original
+description; sitemap, schema, nav counts, and llms.txt all regenerate automatically on rebuild.
 
 ## SEO Keyword Strategy
 - Primary keyword: "Barbecue Grill for Sale" — assigned to homepage.
 - Secondary keywords: bbq grill, bbq grill for sale, barbecue grill machine, barbecue machine for sale,
   barbecue machine, bbq grills, bbq grills for sale, charcoal grills for sale, buy charcoal grills, bbq
   charcoal grill — distributed across category pages and blog posts.
-- Competitor: grillio.com
+- Competitors: grillio.com, kamdi24.de (category-structure reference only)
 
 ## Content Strategy
 3 initial blog posts, one per major buying-decision cluster:
@@ -53,8 +67,9 @@ Images are generic per-category placeholder SVGs pending real product photograph
 2. "How to Set Up a Pellet Grill: A First-Timer's Guide" — pellet-grills cluster
 3. "Best Grills for Small Patios and Balconies" — electric-grills cluster
 
-Gas grills and grill-accessories clusters are unused — next posts should target those
-(e.g. "Best Gas Grill Accessories to Buy First", "3-Burner vs 4-Burner Gas Grills").
+Unused clusters — next posts should target: gas grills, grill accessories, BBQ smokers, kamado/ceramic
+grills, pizza ovens, and charcoal/rubs/sauces (e.g. "Kamado vs. Offset Smoker: Which Should You Buy?",
+"How to Choose Your First Pizza Oven", "Lump Charcoal vs. Briquettes").
 
 ## Live Chat
 - Email link channel: barbecuegrillch@gmail.com

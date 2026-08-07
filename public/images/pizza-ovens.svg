@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <rect width="1600" height="1200" fill="#ffffff"/>
+  <path d="M550 780 Q550 450 800 420 Q1050 450 1050 780 Z" fill="#C2410C"/>
+  <ellipse cx="800" cy="780" rx="250" ry="40" fill="#1F2937"/>
+  <rect x="600" y="740" width="400" height="60" fill="#292524"/>
+  <circle cx="800" cy="560" r="60" fill="#fff1e6" opacity="0.6"/>
+  <rect x="740" y="880" width="24" height="140" fill="#57534e"/>
+  <rect x="836" y="880" width="24" height="140" fill="#57534e"/>
+  <rect x="660" y="1010" width="280" height="24" rx="12" fill="#57534e"/>
+  <text x="800" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" fill="#1F2937" font-weight="700">Outdoor Pizza Ovens</text>
+</svg>
