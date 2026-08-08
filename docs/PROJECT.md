@@ -45,17 +45,20 @@ Categories (8):
 10 products. Consumables (charcoal, wood chips, rubs, sauces) are out of scope for this catalog going
 forward — if reintroduced later, treat as a new decision, not a revert.
 
-Products: 80 products (10 per category) drafted by Claude — see `src/config/site.js` → `PRODUCTS`.
+Products: 90 total — Charcoal Grills has 20 (raised 2026-08-07, replacing its original 10 with 20 new
+entries priced from $350, referencing kamdi24.de/holzkohlegrill for product types/price range only), the
+other 7 categories remain at 10 each. See `src/config/site.js` → `PRODUCTS`.
 **Names, descriptions, and copy are 100% original to this build.** kamdi24.de was used only to identify
-the category taxonomy (factual/organizational, not copyrightable) and to understand realistic product
-types and price ranges for this market — no product descriptions, images, or copyrighted text were
-scraped or reproduced. This site does not claim to sell any real branded products (Weber, Gozney, etc.)
-seen on competitor sites; all product names here are original to Barbecue Grill Co.
+the category taxonomy and typical product types/price ranges (factual/organizational, not copyrightable)
+— no product descriptions, images, or copyrighted text were scraped or reproduced. This site does not
+claim to sell any real branded products (Weber, Everdure, Big Green Egg, etc.) seen on competitor sites;
+all product names here are original to Barbecue Grill Co.
 Images are generic per-category placeholder SVGs pending real product photography.
 
-**Path to 20 products/category:** current depth is 10/category (80 total). Expanding further is
-straightforward — add entries to `PRODUCTS` in `src/config/site.js` with a unique slug/original
-description; sitemap, schema, nav counts, and llms.txt all regenerate automatically on rebuild.
+**Path to 20 products/category:** Charcoal Grills is at 20/category now; the other 7 categories remain
+at 10/category (90 total). Expanding further is straightforward — add entries to `PRODUCTS` in
+`src/config/site.js` with a unique slug/original description; sitemap, schema, nav counts, and llms.txt
+all regenerate automatically on rebuild.
 
 ## SEO Keyword Strategy
 - Primary keyword: "Barbecue Grill for Sale" — assigned to homepage.
