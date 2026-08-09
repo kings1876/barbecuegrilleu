@@ -105,7 +105,7 @@ export const PRODUCTS = [
   // ---------------------------------------------------------------- charcoal-grills
   {
     slug: 'ridgeway-stainless-column-grill',
-    name: 'Ridgeway Stainless Steel Column Grill',
+    name: 'Ridgeway Vertex Column Charcoal Grill 24" Steel',
     price: 429,
     category: 'charcoal-grills',
     badge: 'New',
@@ -116,7 +116,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'ironforge-xl-charcoal-grill-station',
-    name: 'Ironforge XL Charcoal Grill Station',
+    name: 'Ironforge Apex Charcoal Grill Station 40" Black',
     price: 899,
     category: 'charcoal-grills',
     badge: 'Premium',
@@ -127,7 +127,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'summit-steel-kettle-grill-pro-26',
-    name: 'Summit Steel Kettle Grill Pro 26"',
+    name: 'Summit Crestline Kettle Charcoal Grill 26" Graphite',
     price: 449,
     category: 'charcoal-grills',
     badge: 'Popular',
@@ -138,7 +138,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'cascade-stainless-open-charcoal-grill',
-    name: 'Cascade Stainless Open Charcoal Grill',
+    name: 'Cascade Drift Open Charcoal Grill 22" Slate',
     price: 379,
     category: 'charcoal-grills',
     badge: 'none',
@@ -149,7 +149,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'trailmaster-heavy-duty-camping-charcoal-grill',
-    name: 'Trailmaster Heavy-Duty Camping Charcoal Grill',
+    name: 'Trailmaster Ranger Charcoal Camping Grill 18" Black',
     price: 399,
     category: 'charcoal-grills',
     badge: 'none',
@@ -160,7 +160,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'northgate-charcoal-grill-cart-system',
-    name: 'Northgate Charcoal Grill Cart System',
+    name: 'Northgate Voyager Charcoal Grill Cart 32" Steel',
     price: 749,
     category: 'charcoal-grills',
     badge: 'none',
@@ -171,7 +171,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'vantage-pro-stainless-kettle-grill-30',
-    name: 'Vantage Pro Stainless Kettle Grill 30"',
+    name: 'Vantage Horizon Kettle Charcoal Grill 30" Black',
     price: 599,
     category: 'charcoal-grills',
     badge: 'Premium',
@@ -182,7 +182,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'homestead-garden-charcoal-grill',
-    name: 'Homestead Garden Charcoal Grill',
+    name: 'Homestead Manor Charcoal Grill Station 36" Copper',
     price: 1099,
     category: 'charcoal-grills',
     badge: 'Premium',
@@ -193,7 +193,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'ashcroft-dual-zone-charcoal-grill-station',
-    name: 'Ashcroft Dual-Zone Charcoal Grill Station',
+    name: 'Ashcroft Duplex Charcoal Grill Station 34" Graphite',
     price: 849,
     category: 'charcoal-grills',
     badge: 'none',
@@ -204,7 +204,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'ridgeline-charcoal-grill-prep-cart-set',
-    name: 'Ridgeline Charcoal Grill & Prep Cart Set',
+    name: 'Ridgeline Companion Charcoal Grill & Cart Set 24" Black',
     price: 699,
     category: 'charcoal-grills',
     badge: 'Best Value',
@@ -215,7 +215,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'ironforge-compact-column-grill',
-    name: 'Ironforge Compact Column Grill',
+    name: 'Ironforge Nomad Column Charcoal Grill 20" Steel',
     price: 359,
     category: 'charcoal-grills',
     badge: 'Best Value',
@@ -226,7 +226,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'stonebridge-elite-kettle-grill-28',
-    name: 'Stonebridge Elite Kettle Grill 28"',
+    name: 'Stonebridge Regent Kettle Charcoal Grill 28" Slate',
     price: 529,
     category: 'charcoal-grills',
     badge: 'Premium',
@@ -237,7 +237,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'coalridge-professional-charcoal-grill-station',
-    name: 'Coalridge Professional Charcoal Grill Station',
+    name: 'Coalridge Titan Charcoal Grill Station 44" Black',
     price: 1249,
     category: 'charcoal-grills',
     badge: 'Premium',
@@ -248,7 +248,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'timberrock-stainless-camping-grill-set',
-    name: 'Timberrock Stainless Charcoal Camping Grill Set',
+    name: 'Timberrock Basecamp Charcoal Camping Grill Set 20" Steel',
     price: 459,
     category: 'charcoal-grills',
     badge: 'none',
@@ -259,7 +259,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'cinderline-open-flame-charcoal-grill',
-    name: 'Cinderline Open-Flame Charcoal Grill',
+    name: 'Cinderline Blaze Open Charcoal Grill 22" Graphite',
     price: 389,
     category: 'charcoal-grills',
     badge: 'none',
@@ -270,7 +270,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'fortress-xl-charcoal-grill-station',
-    name: 'Fortress XL Charcoal Grill Station with Side Tables',
+    name: 'Fortress Bastion Charcoal Grill Station 38" Black',
     price: 999,
     category: 'charcoal-grills',
     badge: 'Premium',
@@ -281,7 +281,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'wrangler-heavy-gauge-column-grill',
-    name: 'Wrangler Heavy-Gauge Column Charcoal Grill',
+    name: 'Wrangler Anvil Column Charcoal Grill 22" Steel',
     price: 419,
     category: 'charcoal-grills',
     badge: 'none',
@@ -292,7 +292,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'prestige-stainless-charcoal-grill-set',
-    name: 'Prestige Stainless Steel Charcoal Grill Set',
+    name: 'Prestige Sterling Charcoal Grill Set 26" Slate',
     price: 649,
     category: 'charcoal-grills',
     badge: 'none',
@@ -303,7 +303,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'summit-peak-premium-kettle-grill-32',
-    name: 'Summit Peak Premium Kettle Grill 32"',
+    name: 'Summit Peak Zenith Kettle Charcoal Grill 32" Black',
     price: 699,
     category: 'charcoal-grills',
     badge: 'Premium',
@@ -314,7 +314,7 @@ export const PRODUCTS = [
   },
   {
     slug: 'grandview-garden-charcoal-grill-station',
-    name: 'Grandview Garden Charcoal Grill Station',
+    name: 'Grandview Estate Charcoal Grill Station 42" Copper',
     price: 1499,
     category: 'charcoal-grills',
     badge: 'Premium',
