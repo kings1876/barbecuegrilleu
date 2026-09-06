@@ -7,7 +7,7 @@ import FaqAccordion from '@/components/FaqAccordion'
 export const metadata = {
   title: 'Barbecue Grills for Sale | Charcoal, Gas & More',
   description:
-    'Shop barbecue grills for sale — charcoal, gas, electric, pellet, kamado, and smoker grills built for real backyard cooking. Nationwide US shipping.',
+    'Shop genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models. Nationwide US shipping.',
   alternates: { canonical: `https://${SITE.domain}/` },
 }
 
@@ -110,7 +110,7 @@ export default function HomePage() {
             <h2>About {SITE.name}</h2>
             <p>
               {SITE.name} is a {SITE.foundingLocation}-based grill retailer established in {SITE.foundingYear}, offering
-              charcoal, gas, electric, and pellet grills, BBQ smokers, kamado grills, and pizza ovens for home cooks who take their backyard seriously. We ship{' '}
+              genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models — for home cooks who take their backyard seriously. We ship{' '}
               {SITE.shipsTo.toLowerCase()} and specialize in high-output grills and grilling accessories.
             </p>
             <Link href="/about/" className="btn btn-primary">Learn More</Link>

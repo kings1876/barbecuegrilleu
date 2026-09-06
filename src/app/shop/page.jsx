@@ -6,7 +6,7 @@ import { SITE, CATEGORIES, PRODUCTS } from '@/config/site'
 
 export const metadata = {
   title: 'Shop All Grills — BBQ Grills for Sale',
-  description: 'Browse charcoal, gas, electric, and pellet grills, BBQ smokers, kamado grills, and pizza ovens. Nationwide US shipping.',
+  description: 'Browse genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models. Nationwide US shipping.',
   alternates: { canonical: `https://${SITE.domain}/shop/` },
 }
 
@@ -27,7 +27,7 @@ export default function ShopPage() {
         <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Shop' }]} />
         <h1>Shop All Grills</h1>
         <p style={{ maxWidth: 640, color: 'var(--color-text-muted)' }}>
-          Charcoal, gas, electric, and pellet grills, BBQ smokers, kamado grills, and pizza ovens, plus the accessories to keep them running. Minimum order $500 — free shipping over $1,000.
+          Genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models — plus the accessories to keep them running. Minimum order $500 — free shipping over $1,000.
         </p>
 
         <div className="grid grid-4" style={{ marginBottom: 48 }}>

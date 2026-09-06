@@ -27,19 +27,23 @@ export default function ProductPage({ params }) {
   const category = CATEGORIES.find((c) => c.slug === product.category)
   const related = PRODUCTS.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4)
 
+  const KNOWN_BRANDS = ['Weber', 'Kamado Joe', 'Napoleon']
+  const brandName = KNOWN_BRANDS.find((b) => product.name.startsWith(b)) || SITE.name
+
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.name,
     description: product.description,
     image: product.images.map((img) => `https://${SITE.domain}/images/${img}`),
-    brand: { '@type': 'Brand', name: SITE.name },
+    brand: { '@type': 'Brand', name: brandName },
     offers: {
       '@type': 'Offer',
       price: product.price,
       priceCurrency: SITE.currency,
       availability: 'https://schema.org/InStock',
       url: `https://${SITE.domain}/product/${product.slug}/`,
+      seller: { '@type': 'Organization', name: SITE.name },
     },
   }
 
