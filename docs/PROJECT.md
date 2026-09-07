@@ -49,12 +49,16 @@ Black", "Kamado Joe Classic III 18\" Kamado Grill", "Napoleon Rogue 425 Gas Gril
 original writing based on publicly known product characteristics — not copied from any retailer's or
 manufacturer's marketing copy.
 
-**Images:** 3 products have real client-supplied photos of genuine Weber kettle grills (verified — no
-mismatched branding): `weber-original-kettle-premium-22-black`, `weber-original-kettle-premium-26-black`,
-`weber-master-touch-premium-e-5730-22-black`. All other products use category placeholder SVGs pending
-real photos. **Hard rule going forward:** never use a photo showing a different brand's logo than the
-product it's attached to, and never reuse a real branded photo under a different/invented product name.
-When the client supplies more real photos, match them to the correct real product before wiring them in.
+**Images:** 8 products have real client-supplied, verified-matching photos (2026-09-06 batch: 3 Weber
+kettles; 2026-09-07 batch: 5 more, added after each was individually checked for correct brand match):
+`weber-original-kettle-premium-22-black`, `weber-original-kettle-premium-26-black`,
+`weber-master-touch-premium-e-5730-22-black`, `weber-performer-deluxe-22-charcoal-grill` (visible "weber."
++ "PERFORMER" branding, confirmed), `weber-jumbo-joe-18-charcoal-grill`, `weber-smokey-joe-14-charcoal-grill`,
+`napoleon-pro-charcoal-kettle-grill-22`, `napoleon-charcoal-professional-cart-grill` (visible "NAPOLEON"
+branding, confirmed). All other products use category placeholder SVGs pending real photos. **Hard rule
+going forward:** never use a photo showing a different brand's logo than the product it's attached to,
+and never reuse a real branded photo under a different/invented product name. When the client supplies
+more real photos, verify the visible branding matches the target product before wiring them in.
 
 **Rejected earlier in this session, for the record:** the client initially asked to scrape kamdi24.de's
 exact real branded product titles verbatim (declined — no verifiable dealer relationship at the time),

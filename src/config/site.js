@@ -139,7 +139,7 @@ export const PRODUCTS = [
     short: 'A cart-mounted charcoal kettle with a gas ignition system for charcoal.',
     description:
       'The Performer Deluxe mounts a 22-inch charcoal kettle on a full cart with a propane-fueled Gas-Touch ignition system that lights charcoal without lighter fluid or a chimney starter. A fold-out work table, integrated storage bin for a bag of charcoal, and a built-in thermometer round out the setup.',
-    images: ['charcoal-grills.svg'],
+    images: ['weber-performer-deluxe-22-charcoal-grill.jpg'],
   },
   {
     slug: 'weber-jumbo-joe-18-charcoal-grill',
@@ -150,7 +150,7 @@ export const PRODUCTS = [
     short: 'A compact 18-inch portable kettle grill for smaller patios and travel.',
     description:
       'The Jumbo Joe shrinks the kettle format down to an 18-inch portable size without losing the one-touch damper controls of the full-size kettles. Folding handles and a lid latch make it easy to carry and transport, while still offering a real charcoal grilling experience rather than a stripped-down tabletop unit.',
-    images: ['charcoal-grills.svg'],
+    images: ['weber-jumbo-joe-18-charcoal-grill.jpg'],
   },
   {
     slug: 'weber-smokey-joe-14-charcoal-grill',
@@ -161,7 +161,7 @@ export const PRODUCTS = [
     short: 'A 14-inch mini kettle grill built for camping, tailgating, and balconies.',
     description:
       'The smallest grill in the kettle lineup, the Smokey Joe packs a 14-inch cooking grate, a lid, and dampers into a grill light enough to carry one-handed. A good fit for a couple of burgers at a campsite or a tailgate where a full-size kettle isn\'t practical.',
-    images: ['charcoal-grills.svg'],
+    images: ['weber-smokey-joe-14-charcoal-grill.jpg'],
   },
   {
     slug: 'napoleon-pro-charcoal-kettle-grill-22',
@@ -172,7 +172,7 @@ export const PRODUCTS = [
     short: 'A 22-inch charcoal kettle grill with a heavy-gauge stainless bowl.',
     description:
       'Napoleon\'s take on the charcoal kettle uses a heavier-gauge stainless bowl than most kettles in this size class, holding heat more evenly across long cooks. Adjustable top and bottom vents and a removable ash pan keep operation straightforward for cooks moving up from a basic kettle.',
-    images: ['charcoal-grills.svg'],
+    images: ['napoleon-pro-charcoal-kettle-grill-22.jpg'],
   },
   {
     slug: 'napoleon-charcoal-professional-cart-grill',
@@ -183,7 +183,7 @@ export const PRODUCTS = [
     short: 'A cart-mounted charcoal grill with a height-adjustable charcoal tray.',
     description:
       'The Charcoal Professional mounts a large charcoal grate on a full cart, with a crank-adjustable charcoal tray that raises and lowers to control heat without shifting the coals themselves. Side shelves and a lower storage rack round out the cart-based setup.',
-    images: ['charcoal-grills.svg'],
+    images: ['napoleon-charcoal-professional-cart-grill.jpg'],
   },
 
   // ---------------------------------------------------------------- gas-grills (Weber, Napoleon)
