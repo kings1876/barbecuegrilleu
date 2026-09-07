@@ -346,15 +346,15 @@ export const PRODUCTS = [
     images: ['weber-smokefire-ex6-pellet-grill.jpg'],
   },
   {
-    slug: 'napoleon-pellet-smoker-pro-575',
-    name: 'Napoleon Pellet Smoker PRO 575',
-    price: 1099,
+    slug: 'traeger-pro-575-pellet-grill',
+    name: 'Traeger Pro 575 Pellet Grill',
+    price: 999,
     category: 'pellet-grills',
-    badge: 'none',
-    short: 'A digitally controlled pellet smoker with dual meat probe ports.',
+    badge: 'Popular',
+    short: 'A digitally controlled wood-pellet grill with WiFi connectivity and a spacious cooking area.',
     description:
-      'The PRO 575 uses a digital controller with dual meat probe ports to track two cuts through a long smoke without opening the lid. A large hopper capacity and insulated firebox keep temperatures steady through extended low-and-slow cooks.',
-    images: ['pellet-grills.svg'],
+      'The Pro 575 uses an auger-fed hopper and digital controller with WiFi connectivity, letting you monitor and adjust the cook from a phone app instead of standing at the grill. A generous cooking area and hopper capacity make it a practical everyday pellet grill for smoking, roasting, or grilling.',
+    images: ['traeger-pro-575-pellet-grill.jpg'],
   },
 
   // ---------------------------------------------------------------- bbq-smokers (Weber)

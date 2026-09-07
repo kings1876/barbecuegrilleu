@@ -35,9 +35,11 @@ Never hand-edit generated files (`vercel.json`, `public/llms.txt`, `public/auth.
 ## Brand facts (only these are true — never invent more)
 - Founded 2015, United States. Ships nationwide across the United States.
 - **As of 2026-09-06, Barbecue Grill Co. pivoted from an original/house-brand catalog to a retailer of
-  genuine third-party grills.** Per the client, the catalog now carries ONLY three real brands: **Weber,
-  Kamado Joe, and Napoleon**. Do not add any other real brand without the client explicitly naming it, and
-  do not add invented/fictional brand names back into this catalog — the two styles must not mix.
+  genuine third-party grills.** Per the client, the catalog carries real brands: **Weber, Kamado Joe, and
+  Napoleon**, plus **Traeger** (added 2026-09-07, explicitly approved by the client, scoped initially to
+  the Traeger Pro 575 pellet grill listing). Do not add any other real brand without the client explicitly
+  naming it, and do not add invented/fictional brand names back into this catalog — the two styles must
+  not mix.
 - Categories: Charcoal Grills, Gas Grills, Electric Grills, Pellet Grills, BBQ Smokers, Kamado & Ceramic
   Grills, Grill Tools & Accessories (7 total). Outdoor Pizza Ovens was removed — none of the three brands
   make pizza ovens. Category/product counts are uneven and reflect each brand's real product lines, not a

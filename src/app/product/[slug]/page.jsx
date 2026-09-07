@@ -27,7 +27,7 @@ export default function ProductPage({ params }) {
   const category = CATEGORIES.find((c) => c.slug === product.category)
   const related = PRODUCTS.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4)
 
-  const KNOWN_BRANDS = ['Weber', 'Kamado Joe', 'Napoleon']
+  const KNOWN_BRANDS = ['Weber', 'Kamado Joe', 'Napoleon', 'Traeger']
   const brandName = KNOWN_BRANDS.find((b) => product.name.startsWith(b)) || SITE.name
 
   const productSchema = {
