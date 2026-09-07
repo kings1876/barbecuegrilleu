@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
-import SmartImage from '@/components/SmartImage'
+import ProductGallery from '@/components/ProductGallery'
 import ProductCard from '@/components/ProductCard'
 import AddToCartForm from '@/components/AddToCartForm'
 import { SITE, CATEGORIES, PRODUCTS } from '@/config/site'
@@ -73,9 +73,7 @@ export default function ProductPage({ params }) {
         />
 
         <div className="two-col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40 }}>
-          <div className="product-frame">
-            <SmartImage src={product.images[0]} alt={product.name} priority />
-          </div>
+          <ProductGallery images={product.images} alt={product.name} />
           <div>
             {product.badge && product.badge !== 'none' && <span className="badge">{product.badge}</span>}
             <h1>{product.name}</h1>

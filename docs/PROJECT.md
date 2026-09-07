@@ -88,6 +88,12 @@ image optimizer (`/_next/image`) was returning a broken 320x320 result for it. F
 than depending on the optimizer. If a future photo renders blank, check this first before assuming the
 source file is bad.
 
+**Gap found and fixed 2026-09-07:** the product page had never actually implemented a multi-image
+gallery — `product.images[0]` was hardcoded as the only image shown, so the 2nd Kontrol Tower Vent photo
+was invisible even though it was correctly wired into the data. Added `src/components/ProductGallery.jsx`
+(click-to-swap thumbnails, only rendered when `images.length > 1`) and swapped it in on the product page.
+Any product with a multi-image array now gets a real gallery automatically.
+
 **Rejected earlier in this session, for the record:** the client initially asked to scrape kamdi24.de's
 exact real branded product titles verbatim (declined — no verifiable dealer relationship at the time),
 then to upload real manufacturer/retailer photos renamed to fictional product names (declined — photos
