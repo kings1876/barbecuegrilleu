@@ -65,8 +65,11 @@ resolution below), each individually checked for correct brand/model match befor
 - 2026-09-07, batch 5: all 3 BBQ Smokers (Weber Smokey Mountain Cooker 14"/18"/22") — **BBQ Smokers is
   now 100% real photos (3/3).** All 10 Grill Tools & Accessories products (Weber iGrill 3, Original Kettle
   Cover, Gourmet BBQ Griddle Insert, Rapidfire Chimney Starter; Kamado Joe Half Moon Griddle, Grill
-  Gripper, Kontrol Tower Vent — 2-photo gallery; Napoleon PRO Tool Set, Cast Iron Reversible Griddle,
-  Rogue Series Grill Cover) — **Grill Tools & Accessories is now 100% real photos (10/10).**
+  Gripper, Kontrol Tower Vent; Napoleon PRO Tool Set, Cast Iron Reversible Griddle, Rogue Series Grill
+  Cover) — **Grill Tools & Accessories is now 100% real photos (10/10).** (Kontrol Tower Vent briefly had
+  a 2-image gallery using a duplicate-angle photo — removed 2026-09-07 at client request; back to a
+  single image. `ProductGallery.jsx` stays in place for any product that legitimately has multiple images
+  later.)
 
 **Resolved 2026-09-07:** two photos were supplied for the "Napoleon Pellet Smoker PRO 575" listing and
 both were rejected as mismatched — both clearly showed a **Traeger**-branded grill (visible "TRAEGER"

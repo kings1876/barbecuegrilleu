@@ -536,7 +536,7 @@ export const PRODUCTS = [
     short: 'A precision top vent replacement for fine-tuning kamado airflow.',
     description:
       'This replacement top vent uses a sliding daisy-wheel design for finer airflow adjustment than a basic damper, useful for cooks who want tighter temperature control during long, low-and-slow kamado cooks.',
-    images: ['kamado-joe-kontrol-tower-vent.jpg', 'kamado-joe-kontrol-tower-vent-2.webp'],
+    images: ['kamado-joe-kontrol-tower-vent.jpg'],
   },
   {
     slug: 'napoleon-pro-grill-tool-set',
