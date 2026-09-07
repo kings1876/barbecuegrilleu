@@ -49,7 +49,7 @@ Black", "Kamado Joe Classic III 18\" Kamado Grill", "Napoleon Rogue 425 Gas Gril
 original writing based on publicly known product characteristics — not copied from any retailer's or
 manufacturer's marketing copy.
 
-**Images:** 20 of 42 products have real client-supplied, verified-matching photos, each individually
+**Images:** 28 of 42 products have real client-supplied, verified-matching photos, each individually
 checked for correct brand/model match before upload:
 - 2026-09-06: 3 Weber kettles.
 - 2026-09-07, batch 1: 5 more charcoal-grills photos (Weber Performer Deluxe, Jumbo Joe, Smokey Joe;
@@ -58,9 +58,21 @@ checked for correct brand/model match before upload:
 - 2026-09-07, batch 3: all 10 Gas Grills products (Weber Spirit II E-210/E-310, Genesis E-325s, Summit
   S-470/S-670, Q 2200; Napoleon Rogue 425/525, Prestige 500, Prestige PRO 665) — **Gas Grills is now 100%
   real photos (10/10).**
+- 2026-09-07, batch 4: Weber SmokeFire EX4/EX6 (2 of 3 Pellet Grills — Napoleon Pellet Smoker PRO 575
+  still on placeholder, see rejection note below) and all 6 Kamado & Ceramic Grills products (Kamado Joe
+  Joe Jr./Classic II/Classic III/Big Joe II/Big Joe III, Weber Summit Kamado S6) — **Kamado & Ceramic
+  Grills is now 100% real photos (6/6).**
 
-3 of 7 categories (Charcoal, Electric, Gas) are now fully covered with real photography. Remaining:
-Pellet Grills, BBQ Smokers, Kamado & Ceramic Grills, Grill Tools & Accessories — still on placeholder
+**Rejected in batch 4:** a photo named `napoleon-pellet-smoker-pro-575.jpg` was supplied for the Napoleon
+Pellet Smoker PRO 575 listing, but the image clearly shows a **Traeger**-branded grill (visible "TRAEGER"
+embossed on the barrel and molded into the wheel hub) — not Napoleon. Not uploaded; that product still
+uses the pellet-grills placeholder SVG. If the client wants this listing to have a real photo, they need
+to supply an actual Napoleon PRO 575 photo, or clarify whether the product should be a Traeger model
+instead (Traeger has not been approved as a 4th brand for this catalog — ask the client explicitly before
+adding any Traeger products).
+
+4 of 7 categories (Charcoal, Electric, Gas, Kamado & Ceramic) are now fully covered with real photography.
+Remaining: Pellet Grills (2/3), BBQ Smokers (0/3), Grill Tools & Accessories (0/10) — still on placeholder
 SVGs. **Hard rule going forward:** never use a photo showing a different brand's logo than the product
 it's attached to, and never reuse a real branded photo under a different/invented product name. When the
 client supplies more real photos, verify the visible branding matches the target product before wiring

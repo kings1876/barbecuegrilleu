@@ -332,7 +332,7 @@ export const PRODUCTS = [
     short: 'A wood-pellet grill with a wide temperature range for smoking or high-heat searing.',
     description:
       'The SmokeFire EX4 uses an auger-fed hopper and digital controller to hold temperatures from a low smoke up to a high-heat sear, with app-based monitoring so you can track a cook remotely. A porcelain-coated cooking grate and flavorizer bars help manage grease and flare-ups.',
-    images: ['pellet-grills.svg'],
+    images: ['weber-smokefire-ex4-pellet-grill.png'],
   },
   {
     slug: 'weber-smokefire-ex6-pellet-grill',
@@ -343,7 +343,7 @@ export const PRODUCTS = [
     short: 'The larger-capacity SmokeFire, sized for bigger cooks.',
     description:
       'The EX6 steps up the SmokeFire platform to a larger cooking area and hopper capacity, sized for cooks who regularly smoke multiple racks of ribs or a full packer brisket at once, while keeping the same app-connected digital temperature control.',
-    images: ['pellet-grills.svg'],
+    images: ['weber-smokefire-ex6-pellet-grill.jpg'],
   },
   {
     slug: 'napoleon-pellet-smoker-pro-575',
@@ -402,7 +402,7 @@ export const PRODUCTS = [
     short: 'A compact 13-inch ceramic kamado grill for patios and portability.',
     description:
       'The Joe Jr. brings Kamado Joe\'s thick ceramic shell and precision top/bottom vents to a compact 13-inch size, portable enough to bring along or use on a small patio while still holding heat far better than a thin metal grill of the same size.',
-    images: ['kamado-grills.svg'],
+    images: ['kamado-joe-joe-jr-13-kamado-grill.jpg'],
   },
   {
     slug: 'kamado-joe-classic-ii-18-kamado-grill',
@@ -413,7 +413,7 @@ export const PRODUCTS = [
     short: 'The best-known Kamado Joe size, with a divide-and-conquer cooking system.',
     description:
       'The Classic II is Kamado Joe\'s signature size, built around a divide-and-conquer rack system that lets you set up two different cooking zones and heights at once — searing on one level while holding food warm on another, all within one ceramic chamber.',
-    images: ['kamado-grills.svg'],
+    images: ['kamado-joe-classic-ii-18-kamado-grill.jpg'],
   },
   {
     slug: 'kamado-joe-classic-iii-18-kamado-grill',
@@ -424,7 +424,7 @@ export const PRODUCTS = [
     short: 'The updated Classic III, with a redesigned hinge and ash removal system.',
     description:
       'The Classic III refines the Classic platform with an updated air-lift hinge that makes the heavy ceramic lid easier to open one-handed, plus a slide-out ash drawer for cleanup without removing the grate. The same divide-and-conquer cooking system carries over.',
-    images: ['kamado-grills.svg'],
+    images: ['kamado-joe-classic-iii-18-kamado-grill.jpg'],
   },
   {
     slug: 'kamado-joe-big-joe-ii-24-kamado-grill',
@@ -435,7 +435,7 @@ export const PRODUCTS = [
     short: 'A large 24-inch kamado for high-volume cooking.',
     description:
       'The Big Joe II scales the kamado format up to a 24-inch cooking surface, enough for multiple whole chickens or several racks of ribs across its multi-level divide-and-conquer system, for cooks who regularly host larger groups.',
-    images: ['kamado-grills.svg'],
+    images: ['kamado-joe-big-joe-ii-24-kamado-grill.jpg'],
   },
   {
     slug: 'kamado-joe-big-joe-iii-24-kamado-grill',
@@ -446,7 +446,7 @@ export const PRODUCTS = [
     short: 'The largest, most updated kamado in the Kamado Joe lineup.',
     description:
       'The Big Joe III combines the 24-inch large-format cooking area with the updated air-lift hinge and ash drawer from the Classic III, making it the most refined and highest-capacity model in the Kamado Joe range.',
-    images: ['kamado-grills.svg'],
+    images: ['kamado-joe-big-joe-iii-24-kamado-grill.jpg'],
   },
   {
     slug: 'weber-summit-kamado-s6-charcoal-grill',
@@ -457,7 +457,7 @@ export const PRODUCTS = [
     short: 'A ceramic-lined kamado grill from Weber with a stainless steel cart.',
     description:
       'The Summit Kamado S6 pairs a ceramic-lined steel shell with a full stainless steel cart and integrated side burner, blending kamado-style heat retention with the cart-and-storage layout more typical of a standard gas grill setup.',
-    images: ['kamado-grills.svg'],
+    images: ['weber-summit-kamado-s6-charcoal-grill.jpg'],
   },
 
   // ---------------------------------------------------------------- grill-accessories (Weber, Kamado Joe, Napoleon)
