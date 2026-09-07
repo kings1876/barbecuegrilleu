@@ -49,18 +49,22 @@ Black", "Kamado Joe Classic III 18\" Kamado Grill", "Napoleon Rogue 425 Gas Gril
 original writing based on publicly known product characteristics — not copied from any retailer's or
 manufacturer's marketing copy.
 
-**Images:** 10 of 42 products have real client-supplied, verified-matching photos (2026-09-06: 3 Weber
-kettles; 2026-09-07, two batches: 5 more, then 2 more), each individually checked for correct brand match
-before upload: `weber-original-kettle-premium-22-black`, `weber-original-kettle-premium-26-black`,
-`weber-master-touch-premium-e-5730-22-black`, `weber-performer-deluxe-22-charcoal-grill` (visible "weber."
-+ "PERFORMER" branding, confirmed), `weber-jumbo-joe-18-charcoal-grill`, `weber-smokey-joe-14-charcoal-grill`,
-`napoleon-pro-charcoal-kettle-grill-22`, `napoleon-charcoal-professional-cart-grill` (visible "NAPOLEON"
-branding, confirmed), `weber-pulse-1000-electric-grill`, `weber-pulse-2000-electric-grill` (both show
-visible "weber PULSE" branding, confirmed — Electric Grills category is now fully covered with real
-photos, 2/2). All other products use category placeholder SVGs pending real photos. **Hard rule going
-forward:** never use a photo showing a different brand's logo than the product it's attached to, and
-never reuse a real branded photo under a different/invented product name. When the client supplies more
-real photos, verify the visible branding matches the target product before wiring them in.
+**Images:** 20 of 42 products have real client-supplied, verified-matching photos, each individually
+checked for correct brand/model match before upload:
+- 2026-09-06: 3 Weber kettles.
+- 2026-09-07, batch 1: 5 more charcoal-grills photos (Weber Performer Deluxe, Jumbo Joe, Smokey Joe;
+  Napoleon PRO Kettle, Charcoal Professional Cart) — **Charcoal Grills is now 100% real photos (8/8).**
+- 2026-09-07, batch 2: Weber Pulse 1000 + 2000 — **Electric Grills is now 100% real photos (2/2).**
+- 2026-09-07, batch 3: all 10 Gas Grills products (Weber Spirit II E-210/E-310, Genesis E-325s, Summit
+  S-470/S-670, Q 2200; Napoleon Rogue 425/525, Prestige 500, Prestige PRO 665) — **Gas Grills is now 100%
+  real photos (10/10).**
+
+3 of 7 categories (Charcoal, Electric, Gas) are now fully covered with real photography. Remaining:
+Pellet Grills, BBQ Smokers, Kamado & Ceramic Grills, Grill Tools & Accessories — still on placeholder
+SVGs. **Hard rule going forward:** never use a photo showing a different brand's logo than the product
+it's attached to, and never reuse a real branded photo under a different/invented product name. When the
+client supplies more real photos, verify the visible branding matches the target product before wiring
+them in.
 
 **Known issue fixed 2026-09-07:** the Napoleon Charcoal Professional Cart photo initially rendered blank
 on the live product page even though the raw source file was a valid 1500x1500 JPEG — Vercel's on-the-fly

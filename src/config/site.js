@@ -196,7 +196,7 @@ export const PRODUCTS = [
     short: 'A compact 2-burner propane grill built for smaller patios.',
     description:
       'The Spirit II E-210 gives two independently controlled burners and porcelain-enameled cast iron cooking grates in a footprint sized for a smaller deck or patio. A fold-down side table and a built-in lid thermometer keep the essentials within reach without a large cart.',
-    images: ['gas-grills.svg'],
+    images: ['weber-spirit-ii-e-210-gas-grill.jpg'],
   },
   {
     slug: 'weber-spirit-ii-e-310-gas-grill',
@@ -207,7 +207,7 @@ export const PRODUCTS = [
     short: 'A 3-burner propane grill with GS4 grilling system for even heat.',
     description:
       'The E-310 adds a third burner and Weber\'s GS4 high-performance grilling system — angled flame tamers, a stainless steel burner tube, and a removable grease management system — for more consistent heat and easier cleanup than a standard 3-burner grill.',
-    images: ['gas-grills.svg'],
+    images: ['weber-spirit-ii-e-310-gas-grill.jpg'],
   },
   {
     slug: 'weber-genesis-e-325s-gas-grill',
@@ -218,7 +218,7 @@ export const PRODUCTS = [
     short: 'A premium 3-burner gas grill with a sear zone and side burner.',
     description:
       'The Genesis E-325s steps up to a dedicated high-heat sear zone alongside its three main burners, plus a side burner for sauces or sides. Heavy stainless steel construction and a larger total cooking area make it a serious step up from the entry Spirit line.',
-    images: ['gas-grills.svg'],
+    images: ['weber-genesis-e-325s-gas-grill.jpg'],
   },
   {
     slug: 'weber-summit-s-470-gas-grill',
@@ -229,7 +229,7 @@ export const PRODUCTS = [
     short: 'A flagship 4-burner grill with backlit control knobs and a rear rotisserie burner.',
     description:
       'The Summit S-470 is built as a top-tier outdoor kitchen centerpiece — four main burners, a dedicated rear rotisserie burner, backlit control knobs for grilling after dark, and a full stainless steel cart with enclosed storage. Built for cooks who entertain regularly and want every feature available.',
-    images: ['gas-grills.svg'],
+    images: ['weber-summit-s-470-gas-grill.jpg'],
   },
   {
     slug: 'weber-summit-s-670-gas-grill',
@@ -240,7 +240,7 @@ export const PRODUCTS = [
     short: 'The largest Summit gas grill, with 6 burners and a smoker burner.',
     description:
       'The S-670 tops the Summit lineup with six main burners plus a dedicated smoker burner for adding wood-chip smoke flavor to a gas cook. The largest cooking area in the Weber gas lineup, built for hosting large groups regularly.',
-    images: ['gas-grills.svg'],
+    images: ['weber-summit-s-670-gas-grill.jpg'],
   },
   {
     slug: 'weber-q-2200-portable-gas-grill',
@@ -251,7 +251,7 @@ export const PRODUCTS = [
     short: 'A portable single-burner gas grill that runs off a small propane cylinder.',
     description:
       'The Q 2200 is a self-contained portable gas grill with fold-down side tables and a cast-iron cooking grate, running off a small screw-on propane cylinder rather than a full-size tank. A practical choice for balconies, small patios, or taking along in a car.',
-    images: ['gas-grills.svg'],
+    images: ['weber-q-2200-portable-gas-grill.jpg'],
   },
   {
     slug: 'napoleon-rogue-425-gas-grill',
@@ -262,7 +262,7 @@ export const PRODUCTS = [
     short: 'A 4-burner gas grill with a side burner and Jetfire ignition.',
     description:
       'The Rogue 425 pairs four stainless steel burners with a side burner and Napoleon\'s Jetfire ignition system for reliable cold-weather starts. Wave-shaped cooking grids and a full stainless lid round out a solidly built mid-range gas grill.',
-    images: ['gas-grills.svg'],
+    images: ['napoleon-rogue-425-gas-grill.jpg'],
   },
   {
     slug: 'napoleon-rogue-525-gas-grill',
@@ -273,7 +273,7 @@ export const PRODUCTS = [
     short: 'A larger 5-burner version of the Rogue, with a rear infrared rotisserie burner.',
     description:
       'The Rogue 525 adds a fifth main burner and a dedicated rear infrared rotisserie burner to the Rogue platform, giving enough zones to sear, grill, and slow-turn a roast all in the same session.',
-    images: ['gas-grills.svg'],
+    images: ['napoleon-rogue-525-gas-grill.jpg'],
   },
   {
     slug: 'napoleon-prestige-500-gas-grill',
@@ -284,7 +284,7 @@ export const PRODUCTS = [
     short: 'A premium 4-burner grill with dual side burners and integrated lighting.',
     description:
       'The Prestige 500 is built around four main burners plus dual side burners and a rear infrared rotisserie burner, with integrated grill-surface lighting for cooking after sunset. A full stainless steel build is aimed at cooks who want a premium centerpiece grill.',
-    images: ['gas-grills.svg'],
+    images: ['napoleon-prestige-500-gas-grill.jpg'],
   },
   {
     slug: 'napoleon-prestige-pro-665-gas-grill',
@@ -295,7 +295,7 @@ export const PRODUCTS = [
     short: 'The flagship Napoleon gas grill with 6 burners and dual infrared side burners.',
     description:
       'The Prestige PRO 665 is Napoleon\'s flagship gas grill — six main burners, dual side burners with infrared elements, and a rear rotisserie burner, all built into a full stainless steel cart. Sized and specced for cooks who host large groups often.',
-    images: ['gas-grills.svg'],
+    images: ['napoleon-prestige-pro-665-gas-grill.jpg'],
   },
 
   // ---------------------------------------------------------------- electric-grills (Weber)
