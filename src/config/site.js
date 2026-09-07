@@ -367,7 +367,7 @@ export const PRODUCTS = [
     short: 'A compact 14-inch vertical water smoker for smaller cooks.',
     description:
       'The smallest Smokey Mountain Cooker brings the vertical water-smoker format to a compact size — a water pan moderates temperature swings, and a single cooking grate handles a couple of racks of ribs or a small pork shoulder at a time.',
-    images: ['charcoal-grills.svg'],
+    images: ['weber-smokey-mountain-cooker-14.jpg'],
   },
   {
     slug: 'weber-smokey-mountain-cooker-18',
@@ -378,7 +378,7 @@ export const PRODUCTS = [
     short: 'The most popular size in the Smokey Mountain lineup, with two cooking grates.',
     description:
       'The 18-inch Smokey Mountain Cooker is the best-known size in the lineup, with two stacked cooking grates and a water pan for steady, moist heat through long smokes. A built-in lid thermometer and adjustable bottom vents give straightforward temperature control.',
-    images: ['charcoal-grills.svg'],
+    images: ['weber-smokey-mountain-cooker-18.jpg'],
   },
   {
     slug: 'weber-smokey-mountain-cooker-22',
@@ -389,7 +389,7 @@ export const PRODUCTS = [
     short: 'The largest Smokey Mountain Cooker, for bigger cuts and higher volume.',
     description:
       'The 22-inch Smokey Mountain Cooker scales the vertical water-smoker format up for cooks who regularly smoke full packer briskets or multiple pork shoulders at once, while keeping the same water-pan moisture control as the smaller sizes.',
-    images: ['charcoal-grills.svg'],
+    images: ['weber-smokey-mountain-cooker-22.jpg'],
   },
 
   // ---------------------------------------------------------------- kamado-grills (Kamado Joe, Weber)
@@ -470,7 +470,7 @@ export const PRODUCTS = [
     short: 'A 4-probe Bluetooth meat thermometer with smartphone app monitoring.',
     description:
       'The iGrill 3 connects up to four temperature probes at once and streams readings to a smartphone app, so you can track multiple cuts through a long smoke from anywhere within Bluetooth range instead of walking back to the grill.',
-    images: ['grill-accessories.svg'],
+    images: ['weber-igrill-3-bluetooth-thermometer.jpg'],
   },
   {
     slug: 'weber-original-kettle-premium-grill-cover',
@@ -481,7 +481,7 @@ export const PRODUCTS = [
     short: 'A fitted weatherproof cover sized for the Original Kettle Premium.',
     description:
       'This fitted cover is cut specifically to the Original Kettle Premium\'s shape rather than a generic universal size, giving a closer fit that resists wind better and keeps rain from pooling on top.',
-    images: ['grill-accessories.svg'],
+    images: ['weber-original-kettle-premium-grill-cover.jpg'],
   },
   {
     slug: 'weber-gourmet-bbq-system-griddle-insert',
@@ -492,7 +492,7 @@ export const PRODUCTS = [
     short: 'A griddle insert that drops into the center of a Weber cooking grate.',
     description:
       'This insert swaps into the center ring of a compatible Weber cooking grate, turning one section of the grill into a flat griddle surface for pancakes, smash burgers, or stir-fried vegetables without needing a separate appliance.',
-    images: ['grill-accessories.svg'],
+    images: ['weber-gourmet-bbq-system-griddle-insert.jpg'],
   },
   {
     slug: 'weber-rapidfire-chimney-starter',
@@ -503,7 +503,7 @@ export const PRODUCTS = [
     short: 'A steel chimney starter for lighting charcoal without lighter fluid.',
     description:
       'The Rapidfire chimney starter lights a full load of charcoal evenly using a few sheets of newspaper underneath, skipping lighter fluid and the chemical aftertaste it can leave on food. A heat-resistant handle keeps hands clear once the coals are lit.',
-    images: ['grill-accessories.svg'],
+    images: ['weber-rapidfire-chimney-starter.jpg'],
   },
   {
     slug: 'kamado-joe-half-moon-cast-iron-griddle',
@@ -514,7 +514,7 @@ export const PRODUCTS = [
     short: 'A half-moon cast iron griddle sized for the divide-and-conquer rack system.',
     description:
       'This cast iron griddle fills one half of the divide-and-conquer rack, letting you run a flat griddle zone alongside an open-grate zone in the same kamado at the same time — searing on one side, griddling eggs or vegetables on the other.',
-    images: ['grill-accessories.svg'],
+    images: ['kamado-joe-half-moon-cast-iron-griddle.jpg'],
   },
   {
     slug: 'kamado-joe-grill-gripper-tool',
@@ -525,7 +525,7 @@ export const PRODUCTS = [
     short: 'A tool for safely lifting and repositioning a hot cooking grate.',
     description:
       'The Grill Gripper locks onto the edge of a hot cooking grate, letting you lift and reposition it — to add charcoal or check coals below — without needing tongs, gloves, or risking a burn from the grate itself.',
-    images: ['grill-accessories.svg'],
+    images: ['kamado-joe-grill-gripper-tool.jpg'],
   },
   {
     slug: 'kamado-joe-kontrol-tower-vent',
@@ -536,7 +536,7 @@ export const PRODUCTS = [
     short: 'A precision top vent replacement for fine-tuning kamado airflow.',
     description:
       'This replacement top vent uses a sliding daisy-wheel design for finer airflow adjustment than a basic damper, useful for cooks who want tighter temperature control during long, low-and-slow kamado cooks.',
-    images: ['grill-accessories.svg'],
+    images: ['kamado-joe-kontrol-tower-vent.jpg', 'kamado-joe-kontrol-tower-vent-2.webp'],
   },
   {
     slug: 'napoleon-pro-grill-tool-set',
@@ -547,7 +547,7 @@ export const PRODUCTS = [
     short: 'A stainless steel grilling tool set with spatula, tongs, and fork.',
     description:
       'This set covers the essentials — a wide spatula, locking tongs, and a carving fork — built from heavy-gauge stainless steel with extended handles to keep hands clear of direct heat during high-temperature searing.',
-    images: ['grill-accessories.svg'],
+    images: ['napoleon-pro-grill-tool-set.jpg'],
   },
   {
     slug: 'napoleon-cast-iron-reversible-griddle',
@@ -558,7 +558,7 @@ export const PRODUCTS = [
     short: 'A reversible cast iron griddle with a flat side and a ridged sear side.',
     description:
       'This cast iron griddle drops onto a compatible cooking grate and can be flipped between a flat side for pancakes or eggs and a ridged side for grill-mark searing, covering two cooking styles with one accessory.',
-    images: ['grill-accessories.svg'],
+    images: ['napoleon-cast-iron-reversible-griddle.jpg'],
   },
   {
     slug: 'napoleon-rogue-series-grill-cover',
@@ -569,7 +569,7 @@ export const PRODUCTS = [
     short: 'A fitted weatherproof cover sized for the Rogue series gas grills.',
     description:
       'Cut to match the Rogue series cart dimensions rather than a generic universal size, this cover resists wind, rain, and UV fading through repeated outdoor seasons, with adjustable straps to keep it secured in gusty weather.',
-    images: ['grill-accessories.svg'],
+    images: ['napoleon-rogue-series-grill-cover.jpg'],
   },
 ]
 
