@@ -308,7 +308,7 @@ export const PRODUCTS = [
     short: 'A compact electric grill with porcelain-coated cooking grates.',
     description:
       'The Pulse 1000 brings Weber\'s grate design to an electric platform, using porcelain-coated cooking grates over a sealed heating element to produce real sear marks without gas or charcoal. A compact stand-mounted design suits smaller patios and balconies where open flame isn\'t allowed.',
-    images: ['electric-grills.svg'],
+    images: ['weber-pulse-1000-electric-grill.jpg'],
   },
   {
     slug: 'weber-pulse-2000-electric-grill',
@@ -319,7 +319,7 @@ export const PRODUCTS = [
     short: 'A full-size electric grill on a cart, with app-connected temperature control.',
     description:
       'The Pulse 2000 scales the electric grate design up to a full-size cooking surface on a rolling cart, with app-connected temperature control and a built-in meat probe. Built for cooks who want electric convenience without stepping down in cooking capacity.',
-    images: ['electric-grills.svg'],
+    images: ['weber-pulse-2000-electric-grill.jpg'],
   },
 
   // ---------------------------------------------------------------- pellet-grills (Weber, Napoleon)

@@ -49,16 +49,25 @@ Black", "Kamado Joe Classic III 18\" Kamado Grill", "Napoleon Rogue 425 Gas Gril
 original writing based on publicly known product characteristics — not copied from any retailer's or
 manufacturer's marketing copy.
 
-**Images:** 8 products have real client-supplied, verified-matching photos (2026-09-06 batch: 3 Weber
-kettles; 2026-09-07 batch: 5 more, added after each was individually checked for correct brand match):
-`weber-original-kettle-premium-22-black`, `weber-original-kettle-premium-26-black`,
+**Images:** 10 of 42 products have real client-supplied, verified-matching photos (2026-09-06: 3 Weber
+kettles; 2026-09-07, two batches: 5 more, then 2 more), each individually checked for correct brand match
+before upload: `weber-original-kettle-premium-22-black`, `weber-original-kettle-premium-26-black`,
 `weber-master-touch-premium-e-5730-22-black`, `weber-performer-deluxe-22-charcoal-grill` (visible "weber."
 + "PERFORMER" branding, confirmed), `weber-jumbo-joe-18-charcoal-grill`, `weber-smokey-joe-14-charcoal-grill`,
 `napoleon-pro-charcoal-kettle-grill-22`, `napoleon-charcoal-professional-cart-grill` (visible "NAPOLEON"
-branding, confirmed). All other products use category placeholder SVGs pending real photos. **Hard rule
-going forward:** never use a photo showing a different brand's logo than the product it's attached to,
-and never reuse a real branded photo under a different/invented product name. When the client supplies
-more real photos, verify the visible branding matches the target product before wiring them in.
+branding, confirmed), `weber-pulse-1000-electric-grill`, `weber-pulse-2000-electric-grill` (both show
+visible "weber PULSE" branding, confirmed — Electric Grills category is now fully covered with real
+photos, 2/2). All other products use category placeholder SVGs pending real photos. **Hard rule going
+forward:** never use a photo showing a different brand's logo than the product it's attached to, and
+never reuse a real branded photo under a different/invented product name. When the client supplies more
+real photos, verify the visible branding matches the target product before wiring them in.
+
+**Known issue fixed 2026-09-07:** the Napoleon Charcoal Professional Cart photo initially rendered blank
+on the live product page even though the raw source file was a valid 1500x1500 JPEG — Vercel's on-the-fly
+image optimizer (`/_next/image`) was returning a broken 320x320 result for it. Fixed by setting
+`images.unoptimized: true` in `next.config.mjs` for both targets, serving uploaded photos as-is rather
+than depending on the optimizer. If a future photo renders blank, check this first before assuming the
+source file is bad.
 
 **Rejected earlier in this session, for the record:** the client initially asked to scrape kamdi24.de's
 exact real branded product titles verbatim (declined — no verifiable dealer relationship at the time),
