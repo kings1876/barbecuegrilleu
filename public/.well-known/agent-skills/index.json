@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "name": "Barbecue Grill Co.",
+  "url": "https://barbecuegrilleu.com",
+  "description": "Serious Grills for Serious Backyards",
+  "skills": [
+    {
+      "name": "browse-products",
+      "type": "navigation",
+      "description": "Browse the full grill catalog by category",
+      "url": "https://barbecuegrilleu.com/shop/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b85"
+    },
+    {
+      "name": "place-order",
+      "type": "commerce",
+      "description": "Submit an order via the order form. Minimum order $500. Payment via cryptocurrency only.",
+      "url": "https://barbecuegrilleu.com/order/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b85"
+    },
+    {
+      "name": "product-education",
+      "type": "content",
+      "description": "Grilling guides and product buying advice",
+      "url": "https://barbecuegrilleu.com/blog/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b85"
+    },
+    {
+      "name": "contact",
+      "type": "support",
+      "description": "Contact form for product questions or support",
+      "url": "https://barbecuegrilleu.com/contact/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b85"
+    }
+  ]
+}

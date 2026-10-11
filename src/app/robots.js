@@ -4,6 +4,8 @@ export default function robots() {
   const base = `https://${SITE.domain}`
   return {
     rules: [
+      // Utility pages (cart, order, search, thank-you) are kept out of the index with a noindex
+      // meta tag instead of a Disallow, so crawlers can actually read the noindex.
       { userAgent: '*', allow: '/' },
       { userAgent: 'GPTBot', allow: '/' },
       { userAgent: 'ChatGPT-User', allow: '/' },

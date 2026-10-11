@@ -53,3 +53,12 @@ Never hand-edit generated files (`vercel.json`, `public/llms.txt`, `public/auth.
 No invented statistics, awards, press, or named clients. Ever.
 
 If a request would require breaking any of the above, stop and say so rather than complying.
+
+## SEO structure (added 2026-10-11)
+- `/sitemap.xml` is one flat sitemap from `src/app/sitemap.js` (pages, categories, brand hubs, products with images,
+  posts). Cart, order, search and thank-you pages are `noindex` (meta tag, not robots.txt Disallow) and not in the sitemap.
+- Brand hub pages `/brand/<slug>/` are driven by `src/config/brands.js`; products join a hub when their name starts with
+  the brand name. A new brand needs client approval first (see Brand facts).
+- Category titles, meta descriptions, buying guides and FAQs live in `src/config/category-content.js`; add an entry when
+  adding a category.
+- Product images are served unoptimized (`images.unoptimized: true`) so keep source photos ≤1200px wide and compressed.

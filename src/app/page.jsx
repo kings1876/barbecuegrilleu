@@ -5,7 +5,7 @@ import { SITE, CATEGORIES, PRODUCTS, FAQS, ORDER_RULES } from '@/config/site'
 import FaqAccordion from '@/components/FaqAccordion'
 
 export const metadata = {
-  title: 'Barbecue Grills for Sale | Charcoal, Gas & More',
+  title: 'Barbecue Grills for Sale — Weber, Kamado Joe & Napoleon',
   description:
     'Shop genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models. Nationwide US shipping.',
   alternates: { canonical: `https://${SITE.domain}/` },

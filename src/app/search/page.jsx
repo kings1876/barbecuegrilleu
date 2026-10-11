@@ -74,7 +74,7 @@ function SearchResults() {
 
 export default function SearchPage() {
   return (
-    <Suspense fallback={<div className="section container">Loading…</div>}>
+    <Suspense fallback={<div className="section container"><h1>Search</h1></div>}>
       <SearchResults />
     </Suspense>
   )

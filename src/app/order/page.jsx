@@ -6,6 +6,7 @@ export const metadata = {
   title: 'Order Form',
   description: 'Place an order for barbecue grills. Minimum order $500, crypto payment only, 10% crypto discount.',
   alternates: { canonical: `https://${SITE.domain}/order/` },
+  robots: { index: false, follow: true },
 }
 
 export default function OrderPage() {

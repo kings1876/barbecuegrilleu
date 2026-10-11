@@ -1,0 +1,38 @@
+{
+  "protocol": {
+    "name": "acp",
+    "version": "0.1.0"
+  },
+  "name": "Barbecue Grill Co.",
+  "description": "Barbecue Grill Co. is a USA-based grill retailer established in 2015, carrying genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models — for real outdoor cooking. Barbecue Grill Co. ships nationwide and specializes in trusted name-brand grills and grilling accessories for home cooks who take their backyard seriously.",
+  "api_base_url": "https://barbecuegrilleu.com",
+  "homepage": "https://barbecuegrilleu.com",
+  "transports": [
+    "https"
+  ],
+  "capabilities": {
+    "services": [
+      "product-catalog",
+      "blog",
+      "faq"
+    ],
+    "ordering": "human-assisted-order-form",
+    "payment_methods": [
+      "crypto-BTC",
+      "crypto-USDT"
+    ],
+    "currency": "USD",
+    "minimum_order_usd": "500",
+    "free_shipping_threshold_usd": "1000"
+  },
+  "contact": {
+    "email": "barbecuegrillch@gmail.com"
+  },
+  "legal": {
+    "age_restriction": "none",
+    "region": "US",
+    "ships_to": "Nationwide (United States)",
+    "product_type": "Barbecue grills and accessories",
+    "compliance": "Standard consumer product listing."
+  }
+}

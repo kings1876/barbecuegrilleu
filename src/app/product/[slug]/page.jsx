@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ProductGallery from '@/components/ProductGallery'
 import ProductCard from '@/components/ProductCard'
 import AddToCartForm from '@/components/AddToCartForm'
-import { SITE, CATEGORIES, PRODUCTS } from '@/config/site'
+import { SITE, CATEGORIES, PRODUCTS, ORDER_RULES } from '@/config/site'
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ slug: p.slug }))
@@ -15,7 +15,7 @@ export function generateMetadata({ params }) {
   if (!product) return {}
   return {
     title: product.name,
-    description: `${product.short} $${product.price} ${SITE.currency}. Nationwide US shipping.`.slice(0, 158),
+    description: `${product.name}: ${product.short} $${product.price.toLocaleString()} ${SITE.currency}. Ships nationwide in the US.`,
     alternates: { canonical: `https://${SITE.domain}/product/${product.slug}/` },
     openGraph: { images: [`https://${SITE.domain}/images/${product.images[0]}`] },
   }
@@ -44,6 +44,15 @@ export default function ProductPage({ params }) {
       availability: 'https://schema.org/InStock',
       url: `https://${SITE.domain}/product/${product.slug}/`,
       seller: { '@type': 'Organization', name: SITE.name },
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingRate: {
+          '@type': 'MonetaryAmount',
+          value: product.price >= ORDER_RULES.freeShippingOver ? 0 : ORDER_RULES.flatShippingFee,
+          currency: SITE.currency,
+        },
+        shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'US' },
+      },
     },
   }
 

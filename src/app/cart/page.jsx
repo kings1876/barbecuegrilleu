@@ -47,7 +47,7 @@ export default function CartPage() {
   const total = subtotal - cryptoDiscount + shipping
   const belowMin = subtotal > 0 && subtotal < ORDER_RULES.minOrder
 
-  if (!mounted) return null
+  if (!mounted) return <div className="section"><div className="container"><h1>Your Cart</h1></div></div>
 
   return (
     <div className="section">

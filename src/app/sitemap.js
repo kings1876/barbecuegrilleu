@@ -1,68 +1,47 @@
 import { SITE, CATEGORIES, PRODUCTS, POSTS } from '@/config/site'
+import { BRANDS } from '@/config/brands'
 
-const STATIC_PAGES = [
-  '',
-  'shop',
-  'blog',
-  'about',
-  'contact',
-  'faq',
-  'cart',
-  'order',
-  'shipping',
-  'refund',
-  'privacy',
-  'terms',
-  'search',
-]
+// One flat sitemap served at /sitemap.xml (the previous generateSitemaps() split produced
+// /sitemap/<id>.xml files but no index, so the URL in robots.txt was a 404).
+// Utility pages with no search value (cart, order, search, thank-you) are deliberately excluded.
+const CONTENT_PAGES = ['', 'shop', 'blog', 'about', 'contact', 'faq', 'shipping', 'refund', 'privacy', 'terms']
+const CATALOG_UPDATED = '2026-10-11'
 
-export async function generateSitemaps() {
-  return [{ id: 'pages' }, { id: 'categories' }, { id: 'products' }, { id: 'blog' }]
-}
-
-export default async function sitemap({ id }) {
+export default function sitemap() {
   const base = `https://${SITE.domain}`
-  const today = new Date().toISOString()
+  const url = (path) => `${base}/${path ? path + '/' : ''}`
 
-  if (id === 'pages') {
-    return STATIC_PAGES.map((p) => ({
-      url: `${base}/${p ? p + '/' : ''}`,
-      lastModified: today,
-      changeFrequency: p === '' ? 'daily' : 'weekly',
-      priority: p === '' ? 1 : 0.7,
-    }))
-  }
-
-  if (id === 'categories') {
-    return CATEGORIES.map((c) => ({
-      url: `${base}/shop/${c.slug}/`,
-      lastModified: today,
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    }))
-  }
-
-  if (id === 'products') {
-    return PRODUCTS.map((p) => ({
-      url: `${base}/product/${p.slug}/`,
-      lastModified: today,
+  return [
+    ...CONTENT_PAGES.map((p) => ({
+      url: url(p),
+      lastModified: CATALOG_UPDATED,
+      changeFrequency: p === '' ? 'weekly' : 'monthly',
+      priority: p === '' ? 1 : 0.6,
+    })),
+    ...CATEGORIES.map((c) => ({
+      url: url(`shop/${c.slug}`),
+      lastModified: CATALOG_UPDATED,
       changeFrequency: 'weekly',
       priority: 0.9,
+    })),
+    ...BRANDS.map((b) => ({
+      url: url(`brand/${b.slug}`),
+      lastModified: CATALOG_UPDATED,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    })),
+    ...PRODUCTS.map((p) => ({
+      url: url(`product/${p.slug}`),
+      lastModified: CATALOG_UPDATED,
+      changeFrequency: 'weekly',
+      priority: 0.8,
       images: p.images.map((img) => `${base}/images/${img}`),
-    }))
-  }
-
-  if (id === 'blog') {
-    return [
-      { url: `${base}/blog/`, lastModified: today, changeFrequency: 'weekly', priority: 0.6 },
-      ...POSTS.map((post) => ({
-        url: `${base}/blog/${post.slug}/`,
-        lastModified: new Date(post.date).toISOString(),
-        changeFrequency: 'monthly',
-        priority: 0.6,
-      })),
-    ]
-  }
-
-  return []
+    })),
+    ...POSTS.map((post) => ({
+      url: url(`blog/${post.slug}`),
+      lastModified: post.date,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    })),
+  ]
 }

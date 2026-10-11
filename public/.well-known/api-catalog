@@ -1,0 +1,23 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://barbecuegrilleu.com/",
+      "https://www.iana.org/assignments/link-relations/service-doc": [
+        {
+          "href": "https://barbecuegrilleu.com/faq/"
+        }
+      ],
+      "title": "Barbecue Grill Co. — Serious Grills for Serious Backyards"
+    },
+    {
+      "anchor": "https://barbecuegrilleu.com/shop/",
+      "type": "text/html",
+      "title": "Barbecue Grill Co. Product Catalog"
+    },
+    {
+      "anchor": "https://barbecuegrilleu.com/order/",
+      "type": "text/html",
+      "title": "Barbecue Grill Co. Order Form"
+    }
+  ]
+}

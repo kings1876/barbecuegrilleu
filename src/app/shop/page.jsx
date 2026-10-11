@@ -3,6 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ProductCard from '@/components/ProductCard'
 import SmartImage from '@/components/SmartImage'
 import { SITE, CATEGORIES, PRODUCTS } from '@/config/site'
+import { BRANDS } from '@/config/brands'
 
 export const metadata = {
   title: 'Shop All Grills — BBQ Grills for Sale',
@@ -40,6 +41,18 @@ export default function ShopPage() {
             </Link>
           ))}
         </div>
+
+        <h2>Shop by brand</h2>
+        <p>
+          {BRANDS.map((b, i) => (
+            <span key={b.slug}>
+              {i > 0 && ' · '}
+              <Link href={`/brand/${b.slug}/`} style={{ textDecoration: 'underline' }}>
+                {b.name} grills
+              </Link>
+            </span>
+          ))}
+        </p>
 
         <h2>All Products</h2>
         <div className="grid grid-4">

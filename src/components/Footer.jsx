@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { SITE, CATEGORIES } from '@/config/site'
+import { BRANDS } from '@/config/brands'
 
 export default function Footer() {
   const emailEncoded = SITE.contactEmailRaw
@@ -29,6 +30,13 @@ export default function Footer() {
                 <li key={c.slug}>
                   <Link href={`/shop/${c.slug}/`} style={{ color: '#cbd5e1' }}>
                     {c.name}
+                  </Link>
+                </li>
+              ))}
+              {BRANDS.map((b) => (
+                <li key={b.slug}>
+                  <Link href={`/brand/${b.slug}/`} style={{ color: '#cbd5e1' }}>
+                    {b.name} Grills
                   </Link>
                 </li>
               ))}

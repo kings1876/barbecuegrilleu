@@ -1,7 +1,7 @@
 // Generates every domain-bearing / agent-ready file from src/config/site.js.
 // Never hand-edit the files this script writes — edit the config and re-run.
 import { mkdirSync, writeFileSync } from 'node:fs'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 import path from 'node:path'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -11,7 +11,7 @@ const publicDir = path.join(root, 'public')
 const isStatic = process.env.TARGET === 'static'
 
 // Minimal re-implementation of the config (avoids ESM/JSX interop issues in a plain node script)
-const siteModule = await import(path.join(root, 'src/config/site.js'))
+const siteModule = await import(pathToFileURL(path.join(root, 'src/config/site.js')).href)
 const { SITE, ORDER_RULES, CATEGORIES, PRODUCTS } = siteModule
 
 const DOMAIN = SITE.domain
