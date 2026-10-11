@@ -3,20 +3,20 @@
   "protocol_version": "1.0",
   "spec": "https://ucp.dev/specification/overview/",
   "schema": "https://ucp.dev/schema/v1.json",
-  "site": "https://barbecuegrilleu.com",
+  "site": "https://www.barbecuegrilleu.com",
   "name": "Barbecue Grill Co.",
   "description": "Barbecue Grill Co. is a USA-based grill retailer established in 2015, carrying genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models — for real outdoor cooking. Barbecue Grill Co. ships nationwide and specializes in trusted name-brand grills and grilling accessories for home cooks who take their backyard seriously.",
   "services": [
     {
       "id": "product-catalog",
       "type": "catalog",
-      "url": "https://barbecuegrilleu.com/shop/",
+      "url": "https://www.barbecuegrilleu.com/shop/",
       "description": "Full product catalog"
     },
     {
       "id": "order",
       "type": "commerce",
-      "url": "https://barbecuegrilleu.com/order/",
+      "url": "https://www.barbecuegrilleu.com/order/",
       "description": "Place orders via order form"
     }
   ],
@@ -26,12 +26,12 @@
     "content"
   ],
   "endpoints": {
-    "catalog": "https://barbecuegrilleu.com/shop/",
-    "contact": "https://barbecuegrilleu.com/contact/",
-    "agent_skills": "https://barbecuegrilleu.com/.well-known/agent-skills/index.json",
-    "mcp_server_card": "https://barbecuegrilleu.com/.well-known/mcp/server-card.json",
-    "api_catalog": "https://barbecuegrilleu.com/.well-known/api-catalog",
-    "llms_txt": "https://barbecuegrilleu.com/llms.txt"
+    "catalog": "https://www.barbecuegrilleu.com/shop/",
+    "contact": "https://www.barbecuegrilleu.com/contact/",
+    "agent_skills": "https://www.barbecuegrilleu.com/.well-known/agent-skills/index.json",
+    "mcp_server_card": "https://www.barbecuegrilleu.com/.well-known/mcp/server-card.json",
+    "api_catalog": "https://www.barbecuegrilleu.com/.well-known/api-catalog",
+    "llms_txt": "https://www.barbecuegrilleu.com/llms.txt"
   },
   "currency": "USD",
   "minimum_order_usd": "500",

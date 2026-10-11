@@ -14,8 +14,8 @@
         },
         execute: async ({ category }) => {
           const url = category
-            ? "https://barbecuegrilleu.com/shop/" + category + "/"
-            : "https://barbecuegrilleu.com/shop/";
+            ? "https://www.barbecuegrilleu.com/shop/" + category + "/"
+            : "https://www.barbecuegrilleu.com/shop/";
           window.location.href = url;
           return { url };
         }
@@ -25,8 +25,8 @@
         description: "Open the order form to place an order. Minimum order $500.",
         inputSchema: { type: "object", properties: {} },
         execute: async () => {
-          window.location.href = "https://barbecuegrilleu.com/order/";
-          return { url: "https://barbecuegrilleu.com/order/" };
+          window.location.href = "https://www.barbecuegrilleu.com/order/";
+          return { url: "https://www.barbecuegrilleu.com/order/" };
         }
       },
       {
@@ -34,8 +34,8 @@
         description: "Contact for product questions or support",
         inputSchema: { type: "object", properties: {} },
         execute: async () => {
-          window.location.href = "https://barbecuegrilleu.com/contact/";
-          return { url: "https://barbecuegrilleu.com/contact/" };
+          window.location.href = "https://www.barbecuegrilleu.com/contact/";
+          return { url: "https://www.barbecuegrilleu.com/contact/" };
         }
       }
     ]

@@ -7,10 +7,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.barbecuegrilleu.com"
+          "value": "barbecuegrilleu.com"
         }
       ],
-      "destination": "https://barbecuegrilleu.com/:path*",
+      "destination": "https://www.barbecuegrilleu.com/:path*",
       "permanent": true
     }
   ],

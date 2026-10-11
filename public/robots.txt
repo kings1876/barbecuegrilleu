@@ -40,9 +40,9 @@ User-agent: cohere-ai
 Allow: /
 
 # Agent-readable resources
-# llms.txt: https://barbecuegrilleu.com/llms.txt
-# API Catalog: https://barbecuegrilleu.com/.well-known/api-catalog
-# Agent Skills: https://barbecuegrilleu.com/.well-known/agent-skills/index.json
-# MCP Server Card: https://barbecuegrilleu.com/.well-known/mcp/server-card.json
+# llms.txt: https://www.barbecuegrilleu.com/llms.txt
+# API Catalog: https://www.barbecuegrilleu.com/.well-known/api-catalog
+# Agent Skills: https://www.barbecuegrilleu.com/.well-known/agent-skills/index.json
+# MCP Server Card: https://www.barbecuegrilleu.com/.well-known/mcp/server-card.json
 
-Sitemap: https://barbecuegrilleu.com/sitemap.xml
+Sitemap: https://www.barbecuegrilleu.com/sitemap.xml

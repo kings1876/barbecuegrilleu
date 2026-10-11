@@ -5,7 +5,7 @@
 // ============================================================================
 
 export const SITE = {
-  domain: 'barbecuegrilleu.com',
+  domain: 'www.barbecuegrilleu.com', // canonical host; barbecuegrilleu.com redirects here
   name: 'Barbecue Grill Co.',
   tagline: 'Serious Grills for Serious Backyards',
   description:

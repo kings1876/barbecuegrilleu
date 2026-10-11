@@ -15,6 +15,8 @@ const siteModule = await import(pathToFileURL(path.join(root, 'src/config/site.j
 const { SITE, ORDER_RULES, CATEGORIES, PRODUCTS } = siteModule
 
 const DOMAIN = SITE.domain
+// Canonical host is SITE.domain (www). The bare/apex host redirects to it.
+const APEX = DOMAIN.replace(/^www./, '')
 const BASE = `https://${DOMAIN}`
 
 function write(relPath, content) {
@@ -528,7 +530,7 @@ if (isStatic) {
 `
   writeFileSync(path.join(publicDir, '_headers'), headers, 'utf8')
 
-  const redirects = `https://www.${DOMAIN}/* https://${DOMAIN}/:splat 301!
+  const redirects = `https://${APEX}/* https://${DOMAIN}/:splat 301!
 http://${DOMAIN}/* https://${DOMAIN}/:splat 301!
 `
   writeFileSync(path.join(publicDir, '_redirects'), redirects, 'utf8')
@@ -539,7 +541,7 @@ http://${DOMAIN}/* https://${DOMAIN}/:splat 301!
     redirects: [
       {
         source: '/:path*',
-        has: [{ type: 'host', value: `www.${DOMAIN}` }],
+        has: [{ type: 'host', value: APEX }],
         destination: `${BASE}/:path*`,
         permanent: true,
       },
