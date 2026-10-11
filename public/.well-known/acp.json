@@ -21,7 +21,7 @@
       "crypto-BTC",
       "crypto-USDT"
     ],
-    "currency": "USD",
+    "currency": "AUD",
     "minimum_order_usd": "500",
     "free_shipping_threshold_usd": "1000"
   },

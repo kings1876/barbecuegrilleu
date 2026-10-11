@@ -32,7 +32,7 @@
         "crypto-BTC",
         "crypto-USDT"
       ],
-      "currency": "USD",
+      "currency": "AUD",
       "minimumOrder": "500",
       "freeShipping": "1000",
       "ships": "Australia-wide"

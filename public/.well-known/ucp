@@ -33,7 +33,7 @@
     "api_catalog": "https://www.barbecuegrilleu.com/.well-known/api-catalog",
     "llms_txt": "https://www.barbecuegrilleu.com/llms.txt"
   },
-  "currency": "USD",
+  "currency": "AUD",
   "minimum_order_usd": "500",
   "payment_methods": [
     "crypto-BTC",

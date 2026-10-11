@@ -34,8 +34,11 @@ Never hand-edit generated files (`vercel.json`, `public/llms.txt`, `public/auth.
 
 ## Brand facts (only these are true — never invent more)
 - **Target market is Australia (client confirmed 2026-10-12).** The business is based in Melbourne and ships Australia-wide.
-  Founded 2015. (Earlier builds said "United States"; that was replaced.) OPEN: currency/price list, order-rule amounts and
-  spec units are still US-style (USD, BTU, inches, lb) until the client confirms AUD pricing and metric specs.
+  Founded 2015. (Earlier builds said "United States"; that was replaced.) Currency is AUD (client, 2026-10-12) — the price
+  NUMBERS were not changed, they are still the old US-style figures relabelled AUD; reprice when the client supplies an AUD list.
+  Spec tables were converted to metric/AU terms (cm, kg, MJ/h, LPG) arithmetically from US-sourced figures; Australian models can
+  differ (e.g. Weber sells the Genesis as E-325 not E-325s), so re-check against Weber/Napoleon AU pages. Use Australian
+  spelling (flavour, aluminium, enamelled) and AU terms (LPG, strata) in new copy.
 - **As of 2026-09-06, Barbecue Grill Co. pivoted from an original/house-brand catalog to a retailer of
   genuine third-party grills.** Per the client, the catalog carries real brands: **Weber, Kamado Joe, and
   Napoleon**, plus **Traeger** (added 2026-09-07, explicitly approved by the client, scoped initially to

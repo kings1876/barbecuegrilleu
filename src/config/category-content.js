@@ -6,7 +6,7 @@ export const CATEGORY_CONTENT = {
     metaDescription:
       'Buy charcoal grills online: Weber Original, Master-Touch and Performer kettles, Jumbo Joe and Smokey Joe portables, and Napoleon charcoal grills. Australia-wide shipping.',
     guide: [
-      'Charcoal grills give you smoky flavor and very high searing heat at a lower price than most gas or pellet grills. The trade-off is a little more setup: you light the coals, wait for them to ash over, and manage airflow with the vents.',
+      'Charcoal grills give you smoky flavour and very high searing heat at a lower price than most gas or pellet grills. The trade-off is a little more setup: you light the coals, wait for them to ash over, and manage airflow with the vents.',
       'The kettle shape is the all-rounder. A 22-inch Weber Original Kettle fits most backyards, the 26-inch suits bigger cookouts, and the Jumbo Joe and Smokey Joe are small enough for camping or a balcony. If you want a cart with shelves, look at the Weber Performer Deluxe or the Napoleon Charcoal Professional.',
     ],
     faqs: [
@@ -16,12 +16,12 @@ export const CATEGORY_CONTENT = {
       },
       {
         q: 'Is a charcoal grill better than a gas grill?',
-        a: 'Charcoal gives more smoke flavor and hotter searing; gas lights faster and is easier to control. Many cooks choose charcoal for flavor and gas for convenience.',
+        a: 'Charcoal gives more smoke flavour and hotter searing; gas lights faster and is easier to control. Many cooks choose charcoal for flavour and gas for convenience.',
       },
     ],
   },
   'gas-grills': {
-    title: 'Gas Grills for Sale — Weber & Napoleon Propane Grills',
+    title: 'Gas Grills for Sale — Weber & Napoleon LPG Grills',
     metaDescription:
       'Buy gas grills online: Weber Spirit II, Genesis, Summit and Q portable grills, plus Napoleon Rogue and Prestige models. Compare 2- to 6-burner grills. Australia-wide shipping.',
     guide: [
@@ -34,8 +34,8 @@ export const CATEGORY_CONTENT = {
         a: 'Two burners suit one to three people, three or four suit a family, and five or six are for hosting larger groups or cooking several dishes at once.',
       },
       {
-        q: 'Do these gas grills run on propane or natural gas?',
-        a: 'Check the model page for the fuel type. Many grills here run on a standard propane tank; contact us before ordering if you need a natural-gas configuration.',
+        q: 'Do these gas grills run on LPG or natural gas?',
+        a: 'Check the model page for the fuel type. Many grills here run on a standard LPG gas bottle; contact us before ordering if you need a natural-gas configuration.',
       },
     ],
   },
@@ -44,17 +44,17 @@ export const CATEGORY_CONTENT = {
     metaDescription:
       'Buy electric grills for balconies and patios: Weber Pulse 1000 and Pulse 2000 with cart. Real grate sear marks without gas or charcoal. Australia-wide shipping.',
     guide: [
-      'Electric grills plug into a standard outlet, so there is no propane tank, charcoal or open flame. That makes them a good fit where building rules limit other grill types, such as apartments and condos.',
-      'The Weber Pulse 1000 is the compact model; the Pulse 2000 adds a rolling cart and a larger cooking surface. Always check your lease or HOA rules before buying any grill for a balcony.',
+      'Electric grills plug into a standard outlet, so there is no gas bottle, charcoal or open flame. That makes them a good fit where building rules limit other grill types, such as apartments and condos.',
+      'The Weber Pulse 1000 is the compact model; the Pulse 2000 adds a rolling cart and a larger cooking surface. Always check your lease or strata rules before buying any grill for a balcony.',
     ],
     faqs: [
       {
         q: 'Can I use an electric grill on an apartment balcony?',
-        a: 'Often yes, because there is no open flame, but rules differ by building. Check your lease or HOA before buying.',
+        a: 'Often yes, because there is no open flame, but rules differ by building. Check your lease or strata rules before buying.',
       },
       {
         q: 'Do electric grills leave grill marks?',
-        a: 'Yes. The Weber Pulse uses cooking grates over a heating element, so you get real sear marks, though not the smoky flavor of charcoal.',
+        a: 'Yes. The Weber Pulse uses cooking grates over a heating element, so you get real sear marks, though not the smoky flavour of charcoal.',
       },
     ],
   },

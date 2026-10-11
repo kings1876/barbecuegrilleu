@@ -6,7 +6,7 @@
 - Domain: barbecuegrilleu.com
 - Founded: 2015; based in Melbourne, Australia (target market changed from US to Australia 2026-10-12)
 - Ships to: Australia-wide
-- Currency: USD for now — PENDING client confirmation of AUD pricing
+- Currency: AUD (switched 2026-10-12; price numbers unchanged — still need an AUD price list)
 - Primary color: #C2410C · Accent: #1F2937
 
 ## Contact
