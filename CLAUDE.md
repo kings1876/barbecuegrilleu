@@ -73,6 +73,6 @@ If a request would require breaking any of the above, stop and say so rather tha
 - Descriptions must match the specs. Several early descriptions were written from memory and were wrong (burner counts,
   accessory contents); when in doubt, check the manufacturer page before editing.
 - The Weber Rapidfire chimney starter was removed from the catalog 2026-10-11 at client request (could not tell standard vs Compact size).
-- Open question for the client: which Napoleon tool set is stocked (PRO 70034 vs Premium GATL006).
+- Napoleon tool set: the client lists the Premium 3-Piece (GATL006), not the PRO 70034. The client also stocks the PRO 70034 but has no photo/listing for it yet.
 - Weber Genesis E-325s and Summit S-670 show as unavailable/discontinued on Weber's site and some retailers; the client
   confirmed on 2026-10-11 that they still have both in stock, so they stay listed.
