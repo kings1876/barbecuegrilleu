@@ -73,6 +73,6 @@ If a request would require breaking any of the above, stop and say so rather tha
 - Descriptions must match the specs. Several early descriptions were written from memory and were wrong (burner counts,
   accessory contents); when in doubt, check the manufacturer page before editing.
 - The Weber Rapidfire chimney starter was removed from the catalog 2026-10-11 at client request (could not tell standard vs Compact size).
-- Known open questions for the client: which Napoleon tool set is stocked (PRO 70034 vs Premium GATL006), which size of
-  Kamado Joe Half Moon griddle (18" vs 24"), and that Weber lists the
+- Known open questions for the client: which Napoleon tool set is stocked (PRO 70034 vs Premium GATL006)
+  and that Weber lists the
   Genesis E-325s and Summit S-670 as discontinued/unavailable.
