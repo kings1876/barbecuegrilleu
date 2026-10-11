@@ -118,9 +118,9 @@ export const CATEGORY_CONTENT = {
   'grill-accessories': {
     title: 'Grill Accessories — Covers, Thermometers & Tools',
     metaDescription:
-      'Buy grill accessories: Weber iGrill 3 thermometer, grill covers, griddle inserts, chimney starter, Kamado Joe tools and Napoleon tool sets and griddles. Nationwide shipping.',
+      'Buy grill accessories: Weber iGrill 3 thermometer, grill covers, griddle inserts, Kamado Joe tools and Napoleon tool sets and griddles. Nationwide shipping.',
     guide: [
-      'The right accessories make a grill easier to use and longer lasting. A cover protects it from weather, a chimney starter lights charcoal without lighter fluid, and a thermometer takes the guesswork out of doneness.',
+      'The right accessories make a grill easier to use and longer lasting. A cover protects it from weather, a griddle insert adds a flat cooking surface, and a thermometer takes the guesswork out of doneness.',
       'Match accessories to your grill brand where you can: covers and griddle inserts are cut to specific models, so check the product description for the grill it fits.',
     ],
     faqs: [

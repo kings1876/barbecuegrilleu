@@ -767,17 +767,6 @@ export const PRODUCTS = [
     ],
   },
   {
-    slug: 'weber-rapidfire-chimney-starter',
-    name: 'Weber Rapidfire Chimney Starter',
-    price: 25,
-    category: 'grill-accessories',
-    badge: 'none',
-    short: 'A steel chimney starter for lighting charcoal without lighter fluid.',
-    description:
-      'The Rapidfire chimney starter lights charcoal evenly using a few sheets of newspaper underneath, skipping lighter fluid and the chemical aftertaste it can leave on food. A heat-resistant handle keeps hands clear once the coals are lit.',
-    images: ['weber-rapidfire-chimney-starter.jpg'],
-  },
-  {
     slug: 'kamado-joe-half-moon-cast-iron-griddle',
     name: 'Kamado Joe Half Moon Cast Iron Griddle Insert',
     price: 79,

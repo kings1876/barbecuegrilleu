@@ -39,9 +39,9 @@ Categories (7 — Outdoor Pizza Ovens removed; none of the three brands make piz
   — see the Images section below for why)
 - BBQ Smokers (Weber Smokey Mountain — the only dedicated smoker line across the 3 brands) — 3 products
 - Kamado & Ceramic Grills (Kamado Joe, Weber Summit Kamado) — 6 products
-- Grill Tools & Accessories (all 3 brands) — 10 products
+- Grill Tools & Accessories (all 3 brands) — 9 products
 
-Total: 42 products. Counts are intentionally uneven — they reflect each brand's actual real product
+Total: 41 products (Rapidfire Chimney Starter removed 2026-10-11). Counts are intentionally uneven — they reflect each brand's actual real product
 lineup rather than a fixed per-category target. Do not pad any category with invented models just to
 even out the count.
 
@@ -64,7 +64,7 @@ resolution below), each individually checked for correct brand/model match befor
   is now 100% real photos (6/6).**
 - 2026-09-07, batch 5: all 3 BBQ Smokers (Weber Smokey Mountain Cooker 14"/18"/22") — **BBQ Smokers is
   now 100% real photos (3/3).** All 10 Grill Tools & Accessories products (Weber iGrill 3, Original Kettle
-  Cover, Gourmet BBQ Griddle Insert, Rapidfire Chimney Starter; Kamado Joe Half Moon Griddle, Grill
+  Cover, Gourmet BBQ Griddle Insert; Kamado Joe Half Moon Griddle, Grill
   Gripper, Kontrol Tower Vent; Napoleon PRO Tool Set, Cast Iron Reversible Griddle, Rogue Series Grill
   Cover) — **Grill Tools & Accessories is now 100% real photos (10/10).** (Kontrol Tower Vent briefly had
   a 2-image gallery using a duplicate-angle photo — removed 2026-09-07 at client request; back to a
