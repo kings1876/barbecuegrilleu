@@ -38,8 +38,8 @@ export default function RootLayout({ children }) {
     url: `https://${SITE.domain}`,
     foundingDate: String(SITE.foundingYear),
     foundingLocation: SITE.foundingLocation,
-    address: { '@type': 'PostalAddress', addressCountry: 'US' },
-    areaServed: SITE.shipsTo,
+    address: { '@type': 'PostalAddress', addressLocality: 'Melbourne', addressRegion: 'VIC', addressCountry: 'AU' },
+    areaServed: 'Australia',
     numberOfItems: PRODUCTS.length,
     knowsAbout: CATEGORIES.map((c) => c.name),
     priceRange: '$$',
@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
         <a href="#main" className="skip-link">
           Skip to main content
         </a>
-        <AnnouncementBar />
+        <AnnouncementBar categoryCount={CATEGORIES.length} productCount={PRODUCTS.length} />
         <Nav />
         <main id="main">{children}</main>
         <Footer />

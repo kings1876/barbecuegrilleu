@@ -17,7 +17,7 @@ export function generateMetadata({ params }) {
   return {
     title: content?.title || `${category.name} for Sale`,
     description:
-      content?.metaDescription || `${category.description} Shop ${category.name.toLowerCase()} with nationwide US shipping.`,
+      content?.metaDescription || `${category.description} Shop ${category.name.toLowerCase()} with Australia-wide shipping.`,
     alternates: { canonical: `https://${SITE.domain}/shop/${category.slug}/` },
   }
 }

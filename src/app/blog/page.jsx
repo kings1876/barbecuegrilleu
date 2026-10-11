@@ -28,7 +28,7 @@ export default function BlogIndex() {
           {POSTS.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}/`} className="card" style={{ padding: 20, display: 'block' }}>
               <span style={{ fontSize: '0.8rem', color: 'var(--color-primary)', fontWeight: 600 }}>
-                {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                {new Date(post.date).toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' })}
               </span>
               <h2 style={{ fontSize: '1.15rem' }}>{post.title}</h2>
               <p style={{ color: 'var(--color-text-muted)' }}>{post.excerpt}</p>

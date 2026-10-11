@@ -4,7 +4,7 @@ export const CATEGORY_CONTENT = {
   'charcoal-grills': {
     title: 'Charcoal Grills for Sale — Weber & Napoleon Kettles',
     metaDescription:
-      'Buy charcoal grills online: Weber Original, Master-Touch and Performer kettles, Jumbo Joe and Smokey Joe portables, and Napoleon charcoal grills. Nationwide US shipping.',
+      'Buy charcoal grills online: Weber Original, Master-Touch and Performer kettles, Jumbo Joe and Smokey Joe portables, and Napoleon charcoal grills. Australia-wide shipping.',
     guide: [
       'Charcoal grills give you smoky flavor and very high searing heat at a lower price than most gas or pellet grills. The trade-off is a little more setup: you light the coals, wait for them to ash over, and manage airflow with the vents.',
       'The kettle shape is the all-rounder. A 22-inch Weber Original Kettle fits most backyards, the 26-inch suits bigger cookouts, and the Jumbo Joe and Smokey Joe are small enough for camping or a balcony. If you want a cart with shelves, look at the Weber Performer Deluxe or the Napoleon Charcoal Professional.',
@@ -23,7 +23,7 @@ export const CATEGORY_CONTENT = {
   'gas-grills': {
     title: 'Gas Grills for Sale — Weber & Napoleon Propane Grills',
     metaDescription:
-      'Buy gas grills online: Weber Spirit II, Genesis, Summit and Q portable grills, plus Napoleon Rogue and Prestige models. Compare 2- to 6-burner grills. Nationwide US shipping.',
+      'Buy gas grills online: Weber Spirit II, Genesis, Summit and Q portable grills, plus Napoleon Rogue and Prestige models. Compare 2- to 6-burner grills. Australia-wide shipping.',
     guide: [
       'Gas grills are the fastest way to get dinner on: turn a knob, press ignite, and you are cooking in minutes with steady, adjustable heat. More burners means more separate heat zones, so you can sear on one side and keep food warm on the other.',
       'For a small patio, a 2-burner such as the Weber Spirit II E-210 is enough. Most families land on 3 or 4 burners (Spirit II E-310, Genesis E-325s, Napoleon Rogue 425). The Weber Summit and Napoleon Prestige lines add rotisserie, side and sear burners for people who entertain often.',
@@ -42,7 +42,7 @@ export const CATEGORY_CONTENT = {
   'electric-grills': {
     title: 'Electric Grills for Sale — Weber Pulse Patio Grills',
     metaDescription:
-      'Buy electric grills for balconies and patios: Weber Pulse 1000 and Pulse 2000 with cart. Real grate sear marks without gas or charcoal. Nationwide US shipping.',
+      'Buy electric grills for balconies and patios: Weber Pulse 1000 and Pulse 2000 with cart. Real grate sear marks without gas or charcoal. Australia-wide shipping.',
     guide: [
       'Electric grills plug into a standard outlet, so there is no propane tank, charcoal or open flame. That makes them a good fit where building rules limit other grill types, such as apartments and condos.',
       'The Weber Pulse 1000 is the compact model; the Pulse 2000 adds a rolling cart and a larger cooking surface. Always check your lease or HOA rules before buying any grill for a balcony.',
@@ -61,7 +61,7 @@ export const CATEGORY_CONTENT = {
   'pellet-grills': {
     title: 'Pellet Grills for Sale — Weber SmokeFire & Traeger',
     metaDescription:
-      'Buy wood pellet grills online: Weber SmokeFire EX4 and EX6 and the Traeger Pro 575. Set-and-forget smoking and grilling with digital temperature control. Ships nationwide.',
+      'Buy wood pellet grills online: Weber SmokeFire EX4 and EX6 and the Traeger Pro 575. Set-and-forget smoking and grilling with digital temperature control. Ships Australia-wide.',
     guide: [
       'A pellet grill feeds small hardwood pellets from a hopper into a fire pot, and a digital controller holds the temperature you set. That makes long smokes, such as brisket or pulled pork, far less hands-on than charcoal.',
       'The Weber SmokeFire EX4 is the standard size and the EX6 adds capacity; the Traeger Pro 575 is a popular mid-size alternative. Most pellet grills need a power outlet to run the controller and auger.',
@@ -80,7 +80,7 @@ export const CATEGORY_CONTENT = {
   'bbq-smokers': {
     title: 'BBQ Smokers for Sale — Weber Smokey Mountain Cooker',
     metaDescription:
-      'Buy a charcoal water smoker: Weber Smokey Mountain Cooker in 14-, 18- and 22-inch sizes for ribs, brisket and pulled pork. Nationwide US shipping.',
+      'Buy a charcoal water smoker: Weber Smokey Mountain Cooker in 14-, 18- and 22-inch sizes for ribs, brisket and pulled pork. Australia-wide shipping.',
     guide: [
       'A vertical water smoker like the Weber Smokey Mountain Cooker holds a low, steady temperature for hours. A water pan sits between the coals and the food to even out heat and keep meat moist.',
       'Choose by capacity: the 14-inch suits small batches, the 18-inch is the popular all-rounder with two grates, and the 22-inch is for full briskets and multiple pork shoulders.',
@@ -99,7 +99,7 @@ export const CATEGORY_CONTENT = {
   'kamado-grills': {
     title: 'Kamado Grills for Sale — Kamado Joe & Weber Summit Kamado',
     metaDescription:
-      'Buy ceramic kamado grills: Kamado Joe Joe Jr., Classic II and III, Big Joe II and III, and the Weber Summit Kamado S6. Smoke, sear and roast in one grill. Ships nationwide.',
+      'Buy ceramic kamado grills: Kamado Joe Joe Jr., Classic II and III, Big Joe II and III, and the Weber Summit Kamado S6. Smoke, sear and roast in one grill. Ships Australia-wide.',
     guide: [
       'Kamado grills have thick ceramic walls that hold heat and moisture, so one grill can smoke at 225°F overnight and sear steaks at several hundred degrees the next day. Fuel use is low because the ceramic insulates so well.',
       'Kamado Joe sizes run from the portable 13-inch Joe Jr. through the 18-inch Classic to the 24-inch Big Joe. Ceramic is heavy, so plan where the grill will live before you order.',
@@ -118,7 +118,7 @@ export const CATEGORY_CONTENT = {
   'grill-accessories': {
     title: 'Grill Accessories — Covers, Thermometers & Tools',
     metaDescription:
-      'Buy grill accessories: Weber iGrill 3 thermometer, grill covers, griddle inserts, Kamado Joe tools and Napoleon tool sets and griddles. Nationwide shipping.',
+      'Buy grill accessories: Weber iGrill 3 thermometer, grill covers, griddle inserts, Kamado Joe tools and Napoleon tool sets and griddles. Australia-wide shipping.',
     guide: [
       'The right accessories make a grill easier to use and longer lasting. A cover protects it from weather, a griddle insert adds a flat cooking surface, and a thermometer takes the guesswork out of doneness.',
       'Match accessories to your grill brand where you can: covers and griddle inserts are cut to specific models, so check the product description for the grill it fits.',

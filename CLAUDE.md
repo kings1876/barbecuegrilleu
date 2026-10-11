@@ -33,7 +33,9 @@ Never hand-edit generated files (`vercel.json`, `public/llms.txt`, `public/auth.
   this build. If a live agent-commerce API is wanted later, that's a separate build task.
 
 ## Brand facts (only these are true — never invent more)
-- Founded 2015, United States. Ships nationwide across the United States.
+- **Target market is Australia (client confirmed 2026-10-12).** The business is based in Melbourne and ships Australia-wide.
+  Founded 2015. (Earlier builds said "United States"; that was replaced.) OPEN: currency/price list, order-rule amounts and
+  spec units are still US-style (USD, BTU, inches, lb) until the client confirms AUD pricing and metric specs.
 - **As of 2026-09-06, Barbecue Grill Co. pivoted from an original/house-brand catalog to a retailer of
   genuine third-party grills.** Per the client, the catalog carries real brands: **Weber, Kamado Joe, and
   Napoleon**, plus **Traeger** (added 2026-09-07, explicitly approved by the client, scoped initially to

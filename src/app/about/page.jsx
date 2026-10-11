@@ -4,7 +4,7 @@ import { SITE, CATEGORIES } from '@/config/site'
 
 export const metadata = {
   title: 'About Us',
-  description: `About ${SITE.name} — a ${SITE.foundingLocation}-based grill retailer founded in ${SITE.foundingYear}, shipping nationwide across the US.`,
+  description: `About ${SITE.name} — a ${SITE.foundingLocation}-based grill retailer founded in ${SITE.foundingYear}, shipping Australia-wide.`,
   alternates: { canonical: `https://${SITE.domain}/about/` },
 }
 

@@ -9,12 +9,12 @@ export const SITE = {
   name: 'Barbecue Grill Co.',
   tagline: 'Serious Grills for Serious Backyards',
   description:
-    'Barbecue Grill Co. is a USA-based grill retailer established in 2015, carrying genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models — for real outdoor cooking. Barbecue Grill Co. ships nationwide and specializes in trusted name-brand grills and grilling accessories for home cooks who take their backyard seriously.',
-  locale: 'en',
+    'Barbecue Grill Co. is a Melbourne-based grill retailer established in 2015, carrying genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models — for real outdoor cooking. Barbecue Grill Co. ships Australia-wide and specialises in trusted name-brand grills and grilling accessories for home cooks who take their backyard seriously.',
+  locale: 'en-AU',
   target: 'vercel', // 'vercel' | 'static'
   foundingYear: 2015,
-  foundingLocation: 'United States',
-  shipsTo: 'Nationwide (United States)',
+  foundingLocation: 'Melbourne, Australia',
+  shipsTo: 'Australia-wide',
   currency: 'USD',
   primaryColor: '#C2410C', // burnt-orange (char/flame)
   accentColor: '#1F2937', // charcoal grey
@@ -901,7 +901,7 @@ export const POSTS = [
 export const FAQS = [
   {
     q: 'What is Barbecue Grill Co.?',
-    a: 'Barbecue Grill Co. is a USA-based grill retailer founded in 2015, carrying genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models — plus grilling accessories. We ship nationwide across the United States.',
+    a: 'Barbecue Grill Co. is a Melbourne-based grill retailer founded in 2015, carrying genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models — plus grilling accessories. We ship Australia-wide from Melbourne.',
   },
   {
     q: 'What is your minimum order amount?',
@@ -917,7 +917,7 @@ export const FAQS = [
   },
   {
     q: 'Where do you ship?',
-    a: 'We ship nationwide across the United States.',
+    a: 'We ship Australia-wide from Melbourne.',
   },
   {
     q: 'How do I place an order?',

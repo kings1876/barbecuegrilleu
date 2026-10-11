@@ -7,7 +7,7 @@ import { BRANDS } from '@/config/brands'
 
 export const metadata = {
   title: 'Shop All Grills — BBQ Grills for Sale',
-  description: 'Browse genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models. Nationwide US shipping.',
+  description: 'Browse genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models. Australia-wide shipping.',
   alternates: { canonical: `https://${SITE.domain}/shop/` },
 }
 

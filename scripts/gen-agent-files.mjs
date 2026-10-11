@@ -364,7 +364,7 @@ write(
       contact: { email: SITE.contactEmailRaw },
       legal: {
         age_restriction: 'none',
-        region: 'US',
+        region: 'AU',
         ships_to: SITE.shipsTo,
         product_type: 'Barbecue grills and accessories',
         compliance: 'Standard consumer product listing.',

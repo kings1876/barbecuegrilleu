@@ -83,7 +83,7 @@ export default function BlogPostPage({ params }) {
       <div className="container" style={{ maxWidth: 760, margin: '0 auto' }}>
         <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog/' }, { label: post.title }]} />
         <span style={{ fontSize: '0.8rem', color: 'var(--color-primary)', fontWeight: 600 }}>
-          {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          {new Date(post.date).toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' })}
         </span>
         <h1>{post.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: BODY[post.slug] || `<p>${post.excerpt}</p>` }} />

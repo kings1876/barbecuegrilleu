@@ -4,9 +4,9 @@
 - Site name: Barbecue Grill Co.
 - Tagline: Serious Grills for Serious Backyards
 - Domain: barbecuegrilleu.com
-- Founded: 2015, United States
-- Ships to: Nationwide (United States)
-- Currency: USD
+- Founded: 2015; based in Melbourne, Australia (target market changed from US to Australia 2026-10-12)
+- Ships to: Australia-wide
+- Currency: USD for now — PENDING client confirmation of AUD pricing
 - Primary color: #C2410C · Accent: #1F2937
 
 ## Contact
@@ -149,8 +149,8 @@ Gas Grill Should You Buy?", "Kamado Joe Classic vs. Big Joe: Which Size Do You N
 - Client backend / CMS: No
 
 ## Brand Authority Facts (real facts only)
-- Founded 2015, United States
-- Ships nationwide (US)
+- Founded 2015; Melbourne, Australia
+- Ships Australia-wide
 - Differentiation: retailer of genuine Weber, Kamado Joe, and Napoleon grills (per client, 2026-09-06).
   No claim of "authorized dealer" status is made anywhere on the site — that specific claim was never
   verified and should not be added without the client providing real evidence (distributor agreement,

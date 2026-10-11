@@ -15,7 +15,7 @@ export function generateMetadata({ params }) {
   if (!product) return {}
   return {
     title: product.name,
-    description: `${product.name}: ${product.short} $${product.price.toLocaleString()} ${SITE.currency}. Ships nationwide in the US.`,
+    description: `${product.name}: ${product.short} $${product.price.toLocaleString()} ${SITE.currency}. Ships Australia-wide.`,
     alternates: { canonical: `https://${SITE.domain}/product/${product.slug}/` },
     openGraph: { images: [`https://${SITE.domain}/images/${product.images[0]}`] },
   }
@@ -60,7 +60,7 @@ export default function ProductPage({ params }) {
           value: product.price >= ORDER_RULES.freeShippingOver ? 0 : ORDER_RULES.flatShippingFee,
           currency: SITE.currency,
         },
-        shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'US' },
+        shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AU' },
       },
     },
   }

@@ -7,7 +7,7 @@ import FaqAccordion from '@/components/FaqAccordion'
 export const metadata = {
   title: 'Barbecue Grills for Sale — Weber, Kamado Joe & Napoleon',
   description:
-    'Shop genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models. Nationwide US shipping.',
+    'Shop genuine Weber, Kamado Joe, and Napoleon grills — charcoal, gas, electric, pellet, kamado, and smoker models. Australia-wide shipping.',
   alternates: { canonical: `https://${SITE.domain}/` },
 }
 

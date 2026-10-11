@@ -3,14 +3,17 @@
 import { useState, useEffect } from 'react'
 import { ORDER_RULES } from '@/config/site'
 
-const SLIDES = [
+function buildSlides(categoryCount, productCount) {
+  return [
   `Free shipping on orders over $${ORDER_RULES.freeShippingOver.toLocaleString()}`,
   `Pay with ${ORDER_RULES.altPaymentLabel.toLowerCase()} and get ${ORDER_RULES.altPaymentDiscountPct}% off automatically`,
-  `Minimum order $${ORDER_RULES.minOrder} · Ships nationwide across the US`,
-  '9 grill categories · 90+ products in stock',
-]
+  `Minimum order $${ORDER_RULES.minOrder} · Ships Australia-wide`,
+  `${categoryCount} grill categories · ${productCount} products`,
+  ]
+}
 
-export default function AnnouncementBar() {
+export default function AnnouncementBar({ categoryCount, productCount }) {
+  const SLIDES = buildSlides(categoryCount, productCount)
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
