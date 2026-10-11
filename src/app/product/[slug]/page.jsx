@@ -37,6 +37,15 @@ export default function ProductPage({ params }) {
     description: product.description,
     image: product.images.map((img) => `https://${SITE.domain}/images/${img}`),
     brand: { '@type': 'Brand', name: brandName },
+    ...(product.specs?.length
+      ? {
+          additionalProperty: product.specs.map(([name, value]) => ({
+            '@type': 'PropertyValue',
+            name,
+            value,
+          })),
+        }
+      : {}),
     offers: {
       '@type': 'Offer',
       price: product.price,
@@ -103,6 +112,30 @@ export default function ProductPage({ params }) {
           <h2>Product Details</h2>
           <p style={{ maxWidth: 'none' }}>{product.description}</p>
         </div>
+
+        {product.specs?.length > 0 && (
+          <div style={{ marginTop: 32 }}>
+            <h2>Specifications</h2>
+            <div className="table-wrap">
+              <table>
+                <tbody>
+                  {product.specs.map(([label, value]) => (
+                    <tr key={label} style={{ borderTop: '1px solid var(--color-border)' }}>
+                      <th scope="row" style={{ textAlign: 'left', padding: '10px 12px', width: '40%', fontWeight: 600 }}>
+                        {label}
+                      </th>
+                      <td style={{ padding: '10px 12px' }}>{value}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>
+              Specifications are based on manufacturer and retailer published data and can vary by fuel type, color and
+              configuration. Contact us to confirm details before ordering.
+            </p>
+          </div>
+        )}
 
         {related.length > 0 && (
           <div style={{ marginTop: 64 }}>

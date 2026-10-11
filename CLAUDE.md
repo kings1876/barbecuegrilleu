@@ -62,3 +62,16 @@ If a request would require breaking any of the above, stop and say so rather tha
 - Category titles, meta descriptions, buying guides and FAQs live in `src/config/category-content.js`; add an entry when
   adding a category.
 - Product images are served unoptimized (`images.unoptimized: true`) so keep source photos ≤1200px wide and compressed.
+
+## Product specifications (added 2026-10-11)
+- Each product may have `specs: [['Label', 'Value'], ...]` in `src/config/site.js`; the product page renders it as a
+  Specifications table and emits it as `additionalProperty` in the Product JSON-LD.
+- Only include a figure that comes from the manufacturer's page or that several retailer listings agree on. If sources
+  conflict (cooking area, weight, BTU), leave that figure out or label the variant. Never estimate or invent a spec.
+- Many models ship in variants (LP vs natural gas, colors, cart or stand-alone, regional model codes). Keep specs
+  variant-neutral or say which variant they describe.
+- Descriptions must match the specs. Several early descriptions were written from memory and were wrong (burner counts,
+  accessory contents); when in doubt, check the manufacturer page before editing.
+- Known open questions for the client: which Napoleon tool set is stocked (PRO 70034 vs Premium GATL006), which size of
+  Kamado Joe Half Moon griddle (18" vs 24"), which Weber Rapidfire (standard vs Compact), and that Weber lists the
+  Genesis E-325s and Summit S-670 as discontinued/unavailable.
