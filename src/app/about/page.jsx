@@ -28,7 +28,7 @@ export default function AboutPage() {
         <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
         <h1>About {SITE.name}</h1>
         <div className="product-frame" style={{ marginBottom: 32, aspectRatio: '16/7' }}>
-          <SmartImage src="about-grilling.svg" alt={`${SITE.name} team and grills`} />
+          <SmartImage src="kamado-joe-big-joe-ii-24-kamado-grill.jpg" alt={`${SITE.name} team and grills`} />
         </div>
 
         <p>{SITE.description}</p>

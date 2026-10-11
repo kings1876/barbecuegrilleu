@@ -44,7 +44,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="product-frame" style={{ background: '#fff' }}>
-            <SmartImage src="hero-grill.svg" alt="Barbecue grill lineup from Barbecue Grill Co." priority />
+            <SmartImage src="weber-genesis-e-325s-gas-grill.jpg" alt="Barbecue grill lineup from Barbecue Grill Co." priority />
           </div>
         </div>
       </section>
@@ -79,7 +79,7 @@ export default function HomePage() {
             {CATEGORIES.map((c) => (
               <Link key={c.slug} href={`/shop/${c.slug}/`} className="card" style={{ padding: 20, display: 'block' }}>
                 <div className="product-frame" style={{ marginBottom: 12 }}>
-                  <SmartImage src={`${c.slug}.svg`} alt={c.name} />
+                  <SmartImage src={PRODUCTS.find((p) => p.category === c.slug).images[0]} alt={c.name} />
                 </div>
                 <h3 style={{ fontSize: '1.05rem', margin: 0 }}>{c.name}</h3>
               </Link>
@@ -116,7 +116,7 @@ export default function HomePage() {
             <Link href="/about/" className="btn btn-primary">Learn More</Link>
           </div>
           <div className="product-frame">
-            <SmartImage src="about-grilling.svg" alt={`About ${SITE.name}`} />
+            <SmartImage src="kamado-joe-big-joe-ii-24-kamado-grill.jpg" alt={`About ${SITE.name}`} />
           </div>
         </div>
       </section>

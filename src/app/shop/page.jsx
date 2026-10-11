@@ -34,7 +34,7 @@ export default function ShopPage() {
           {CATEGORIES.map((c) => (
             <Link key={c.slug} href={`/shop/${c.slug}/`} className="card" style={{ padding: 18, display: 'block' }}>
               <div className="product-frame" style={{ marginBottom: 10 }}>
-                <SmartImage src={`${c.slug}.svg`} alt={c.name} />
+                <SmartImage src={PRODUCTS.find((p) => p.category === c.slug).images[0]} alt={c.name} />
               </div>
               <h3 style={{ fontSize: '1rem', margin: 0 }}>{c.name}</h3>
             </Link>

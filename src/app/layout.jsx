@@ -19,13 +19,13 @@ export const metadata = {
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description.slice(0, 155),
     url: `https://${SITE.domain}`,
-    images: [`https://${SITE.domain}/images/og-default.svg`],
+    images: [`https://${SITE.domain}/images/weber-genesis-e-325s-gas-grill.jpg`],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description.slice(0, 155),
-    images: [`https://${SITE.domain}/images/og-default.svg`],
+    images: [`https://${SITE.domain}/images/weber-genesis-e-325s-gas-grill.jpg`],
   },
 }
 
