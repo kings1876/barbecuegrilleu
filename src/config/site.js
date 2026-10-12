@@ -872,15 +872,15 @@ export const PRODUCTS = [
 export const POSTS = [
   {
     slug: 'charcoal-vs-gas-grill-which-is-right-for-you',
-    title: 'Charcoal vs. Gas Grill: Which Is Right for You?',
+    title: 'Gas vs Charcoal BBQ: Which Should You Buy?',
     excerpt:
-      'Smoke flavour and control versus speed and convenience — how to decide between a charcoal grill and a gas grill for your backyard.',
+      'Smoke flavour versus speed and convenience: how to choose between a gas BBQ and a charcoal BBQ, including LPG, natural gas and fire restrictions.',
     category: 'charcoal-grills',
     date: '2026-06-02',
   },
   {
     slug: 'how-to-set-up-a-pellet-grill-for-first-time-users',
-    title: 'How to Set Up a Pellet Grill: A First-Timer’s Guide',
+    title: 'How to Set Up a Pellet BBQ: A First-Timer’s Guide',
     excerpt:
       'Everything to check before your first cook, from priming the auger to setting your first temperature.',
     category: 'pellet-grills',
@@ -888,9 +888,9 @@ export const POSTS = [
   },
   {
     slug: 'best-grills-for-small-patios-and-balconies',
-    title: 'Best Grills for Small Patios and Balconies',
+    title: 'Best BBQ for an Apartment Balcony or Small Patio',
     excerpt:
-      'When charcoal and gas aren’t allowed, here’s how to still get real grill-grate results in a small outdoor space.',
+      'When strata rules rule out charcoal and gas, an electric BBQ such as the Weber Pulse still gives real sear marks on a small balcony or patio.',
     category: 'electric-grills',
     date: '2026-07-01',
   },

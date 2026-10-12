@@ -5,33 +5,37 @@ import { SITE, POSTS, CATEGORIES } from '@/config/site'
 
 const BODY = {
   'charcoal-vs-gas-grill-which-is-right-for-you': `
-    <p>Choosing between charcoal and gas usually comes down to what you value more on a Tuesday night: flavour and control, or speed and convenience. Neither is objectively "better" — they're built for different cooking styles.</p>
-    <h2>Charcoal: more control, more flavour, more patience</h2>
-    <p>A charcoal grill like our <a href="/product/ember-45-charcoal-kettle/">Ember 45 Charcoal Kettle</a> gives you direct control over heat zones by how you arrange your coals, and the smoke itself becomes part of the flavour. The tradeoff is setup and cleanup time — lighting charcoal and waiting for it to ash over takes 15-20 minutes before you're cooking.</p>
-    <h2>Gas: fast, consistent, low-maintenance</h2>
-    <p>A gas grill like the <a href="/product/summit-3-burner-gas-grill/">Summit 3-Burner</a> lights in seconds and holds a steady temperature with a turn of a dial. You lose some of the smoky depth charcoal provides, but you gain the ability to cook a weeknight dinner without a 30-minute commitment.</p>
+    <p>Choosing between a gas BBQ and a charcoal BBQ usually comes down to what you value more on a Tuesday night: speed and convenience, or flavour and control. Neither is objectively better. They suit different cooks.</p>
+    <h2>Gas BBQ: fast, consistent, low-maintenance</h2>
+    <p>A gas BBQ like the <a href="/product/weber-spirit-ii-e-310-gas-grill/">Weber Spirit II E-310</a> lights at the push of a button and holds a steady temperature with a turn of a dial. You give up some of the smoky depth charcoal provides, but a weeknight dinner doesn't need a long warm-up. Gas models are sold for LPG (a gas bottle) or natural gas (a fixed gas line), so check which one your outdoor area is set up for. Our <a href="/shop/gas-grills/">gas BBQs</a> range from compact two-burner models to the Napoleon <a href="/product/napoleon-rogue-425-gas-grill/">Rogue 425</a> and larger Prestige series.</p>
+    <h2>Charcoal BBQ: more flavour, more patience</h2>
+    <p>A kettle like the <a href="/product/weber-original-kettle-premium-22-black/">Weber Original Kettle</a> gives you direct control over heat zones by how you arrange the coals, and the smoke becomes part of the flavour. The tradeoff is time: lighting charcoal and waiting for it to ash over takes a while before you can cook, and cleanup is messier. Browse the full <a href="/shop/charcoal-grills/">charcoal BBQ range</a>.</p>
+    <h2>Fire restrictions and where you live</h2>
+    <p>Charcoal and wood fires are usually restricted on days of high fire danger, and many apartment buildings limit gas or charcoal on balconies. Check your state's fire authority and your strata or lease rules before you buy. If a flame isn't allowed, an <a href="/shop/electric-grills/">electric BBQ</a> may be the answer.</p>
     <h2>Our take</h2>
-    <p>If you grill several times a week and want convenience, go gas. If grilling is a weekend event and flavour is the priority, charcoal is worth the extra time. Plenty of serious cooks end up owning one of each.</p>
+    <p>If you cook several times a week and want convenience, go gas. If cooking is a weekend event and flavour is the priority, charcoal is worth the extra time. If you want charcoal flavour with steady heat for long cooks, look at a <a href="/shop/kamado-grills/">kamado</a>. Plenty of serious cooks end up owning more than one type.</p>
   `,
   'how-to-set-up-a-pellet-grill-for-first-time-users': `
-    <p>Pellet grills reward a careful first setup — get the basics right and every cook after gets easier.</p>
+    <p>A pellet BBQ rewards a careful first setup. Get the basics right and every cook after gets easier. Always follow the setup steps in your model's manual first; the points below are general good practice.</p>
     <h2>1. Prime the auger</h2>
-    <p>Before your first cook, run the auger with the lid open until pellets are actively feeding into the firepot. Skipping this step is the most common reason a first cook fails to ignite properly.</p>
-    <h2>2. Season the grill</h2>
-    <p>Run the grill empty at a high temperature (around 400°F) for 30-45 minutes before cooking anything. This burns off manufacturing residue and starts building seasoning on the grates.</p>
+    <p>Most pellet BBQs need the auger to fill with pellets before the first start-up, as the manual describes. Skipping this is a common reason a first cook fails to ignite properly.</p>
+    <h2>2. Season the BBQ</h2>
+    <p>Run it empty at a high temperature (around 200°C) for 30-45 minutes before cooking anything, unless your manual says otherwise. This burns off manufacturing residue and starts building seasoning on the grates.</p>
     <h2>3. Start with a simple, forgiving cook</h2>
-    <p>Save the 12-hour brisket for your third or fourth cook. Start with something like chicken thighs or a pork shoulder that tolerates small temperature swings while you learn how your specific grill holds heat.</p>
+    <p>Save the 12-hour brisket for your third or fourth cook. Start with chicken thighs or a pork shoulder that tolerates small temperature swings while you learn how your BBQ holds heat.</p>
     <h2>4. Use the probe, not just the dial</h2>
-    <p>A grill like the <a href="/product/ridgeline-pro-pellet-grill/">Ridgeline Pro</a> includes dual meat probes — use them. Grill-set temperature and actual meat temperature are two different things, and the probe is what tells you when food is actually done.</p>
+    <p>The <a href="/product/traeger-pro-575-pellet-grill/">Traeger Pro 575</a> includes a meat probe, and the <a href="/product/weber-smokefire-ex4-pellet-grill/">Weber SmokeFire EX4</a> is Wi-Fi enabled for monitoring a cook from your phone. Either way, the set temperature and the meat's actual temperature are two different things, and the probe is what tells you when food is done.</p>
+    <h2>Choosing a pellet BBQ</h2>
+    <p>See the full <a href="/shop/pellet-grills/">pellet BBQ range</a>, or compare with a <a href="/shop/bbq-smokers/">charcoal smoker</a> if you prefer a hands-on cook.</p>
   `,
   'best-grills-for-small-patios-and-balconies': `
-    <p>Plenty of apartment leases and strata (owners corporation) rules prohibit open-flame grills entirely — no charcoal, no gas. That doesn't mean you're stuck with a pan on the stove.</p>
-    <h2>Electric grills close the gap</h2>
-    <p>An electric grill like the <a href="/product/patio-pro-electric-grill/">Patio Pro</a> uses a high-wattage heating element and a ridged cast iron grate to produce real sear marks and grill-style char, without an open flame or fuel tank.</p>
-    <h2>What to look for</h2>
-    <p>Prioritize a model with a real thermostat rather than a single on/off switch — the <a href="/product/skyline-xl-electric-grill/">Skyline XL</a> is a good example, giving you actual temperature control for anything from a slow-cooked chicken thigh to a quick sear. A removable drip tray also makes a big difference in cleanup on a small balcony.</p>
+    <p>Plenty of apartment leases and strata (owners corporation) rules prohibit open-flame BBQs, with no charcoal and sometimes no gas. That doesn't mean you're stuck with a pan on the stove.</p>
+    <h2>Electric BBQs close the gap</h2>
+    <p>The <a href="/product/weber-pulse-1000-electric-grill/">Weber Pulse 1000</a> is a compact electric BBQ with porcelain-enamelled cast iron grates over an electric heating element, so you get real sear marks without gas or charcoal. At about 14 kg it's easy to place on a small balcony or patio.</p>
+    <h2>If you cook for more people</h2>
+    <p>The <a href="/product/weber-pulse-2000-electric-grill/">Weber Pulse 2000</a> has a larger cooking area on a rolling cart, plus app-connected temperature control, so you give up less capacity going electric. Allow for the extra space: its cart is about 112 cm wide with the side table up.</p>
     <h2>Check your building rules first</h2>
-    <p>Even electric grills are restricted in some buildings, so confirm your lease or strata rules before buying. When they're allowed, an electric grill is the closest you'll get to real grill-grate results without a live flame.</p>
+    <p>Even electric BBQs are restricted in some buildings, and they need a nearby power point. Confirm your lease or strata rules before buying. Browse all <a href="/shop/electric-grills/">electric BBQs</a>.</p>
   `,
 }
 
